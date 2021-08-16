@@ -1,0 +1,115 @@
+html {
+    width: 100vw;
+    background-color: #ffffff;
+    font-family: 'Montserrat';
+    margin: auto;
+    align-content: center;
+    align-self: center;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 8vh;
+    font-weight: 600;
+    text-align: center;
+    vertical-align:middle;
+}
+
+h2 {
+    font-size: 4.5vh;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    width:fit-content;
+    padding-bottom: 3vh;
+    border-bottom: 0.3vh solid #000000;
+}
+
+h3 {
+    font-size: 3.6vh;
+    font-weight: 400;
+    text-align: center;
+}
+
+h4 {
+    font-size: 3.2vh;
+    font-weight: 400;
+    text-align: left;
+}
+
+h5 {
+    font-size: 3vh;
+    font-weight: 300;
+}
+
+p {
+    font-size: 2vh;
+    font-weight: 300;
+    text-align: left;
+    line-height: 4vh;
+}
+
+a {
+    font-size: 2vh;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0;
+}
+
+header {
+    height: 10vh;
+    background-color: #000000b0;
+    margin-left: -1vh;
+    margin-top: -1vh;
+    margin-right: -1vh;
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    vertical-align: middle;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-self: center;
+
+}
+
+#BIZCOMM {
+    height: 100vh;
+}
+
+#about-us {
+    max-width: 64vw;
+    height: 100vh;
+    margin: auto;
+    align-content: center;
+}
+
+#about-info {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#about-one, #about-two {
+    width: 30vw;
+    margin: auto 3vh;
+}
