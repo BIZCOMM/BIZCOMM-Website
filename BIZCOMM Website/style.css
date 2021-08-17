@@ -9,11 +9,13 @@ html {
     overflow-x: hidden;
 }
 
+
 /* width */
 
 ::-webkit-scrollbar {
-    width: 0.7vh;
+    width: 1.2vh;
 }
+
 
 /* Track */
 
@@ -21,17 +23,19 @@ html {
     background: #000000;
 }
 
+
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-    background: #353535;
+    background: #4e4e4e;
     border-radius: 1vh;
 }
+
 
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #353535;
+    background: #727272;
 }
 
 ul {
@@ -61,6 +65,7 @@ h2 {
     width: fit-content;
     padding-bottom: 3vh;
     border-bottom: 0.3vh solid #000000;
+    margin-bottom: 0;
 }
 
 h3 {
@@ -96,10 +101,42 @@ a {
 
 header {
     height: 10vh;
-    background-color: #000000b0;
+    background-color: #000000d0;
     margin-left: -1vh;
     margin-top: -1vh;
     margin-right: -1vh;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "Logo Nav";
+}
+
+#logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "Icon Text";
+    grid-area: Logo;
+}
+
+#logo-img {
+    grid-area: Icon;
+}
+
+#logo-text {
+    grid-area: Text;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo-upper-text {}
+
+nav {
+    grid-area: Nav;
 }
 
 #nav-links {
@@ -122,8 +159,8 @@ header {
 
 .divider {
     height: 20vh;
-    width: 101vw;
-    margin: 0 -1vw;
+    width: 100vw;
+    margin: auto;
 }
 
 #content {
@@ -132,24 +169,38 @@ header {
     justify-content: center;
     margin: auto;
     align-self: center;
+    width: 100vw;
+    margin: 0 -1vw;
+    margin-top: -0.7vh;
 }
 
 #BIZCOMM {
     align-items: center;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url("images/Temp-BG.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#first-text {
+    color: #ffffff;
+    padding: 2vh;
+    background-color: #000000ab;
 }
 
 #about-us {
     max-width: 64vw;
-    margin: auto;
-    align-content: center;
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
 }
 
 #about-header {
     display: flex;
     flex-direction: column;
-    margin-top: 12vh;
+    margin-top: 20vh;
 }
 
 #about-info {
@@ -170,3 +221,5 @@ header {
     background-attachment: fixed;
     background-size: cover;
 }
+
+#partners-header {}
