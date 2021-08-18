@@ -100,7 +100,7 @@ a {
 }
 
 header {
-    height: 10vh;
+    height: 12vh;
     background-color: #000000d0;
     margin-left: -1vh;
     margin-top: -1vh;
@@ -126,6 +126,15 @@ header {
 
 #logo-img {
     grid-area: Icon;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+#logo-image {
+    max-width: 10vh;
+    max-height: 10vh;
+    margin-top: 1.4vh;
 }
 
 #logo-text {
@@ -133,15 +142,39 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#logo-upper-text {}
+#logo-upper-text {
+    font-size: 5vh;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: min-content;
+    border: none;
+    line-height: 5vh;
+    padding-top: 1.7vh;
+    padding-left: 0.5vh;
+}
+
+#logo-lower-text {
+    font-size: 4vh;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: 4vh;
+    padding-left: 0.5vh;
+}
 
 nav {
     grid-area: Nav;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #nav-links {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     margin: auto;
     vertical-align: middle;
 }
