@@ -407,6 +407,17 @@ nav {
     flex-direction: row;
     justify-content: center;
 }
+#help-links{
+    padding: 20px;
+}
+
+#terms-privacy-links{
+    padding: 20px;
+}
+
+#telstra-links{
+    padding: 20px;
+}
 
 #copyright{
     display: flex;
