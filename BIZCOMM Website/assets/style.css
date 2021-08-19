@@ -79,11 +79,16 @@ h4 {
     font-size: 1.5vw;
     font-weight: 400;
     text-align: left;
+    line-height: 2vw;
+    margin: 0 auto;
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
 }
 
 h5 {
     font-size: 1.0vw;
     font-weight: 300;
+    margin: 0 auto;
 }
 
 p {
@@ -359,6 +364,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     max-width: 45vw;
     max-height: 21vw;
 }
@@ -385,6 +391,11 @@ nav {
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas: "TopLeft TopRight" "Bottom Bottom";
+    line-height: 0.5vw;
+}
+
+.contact-link:link {
+    margin: 0;
 }
 
 #phone-abn {
@@ -397,25 +408,26 @@ nav {
     text-align: left;
 }
 
-#details-container a:link{
+#details-container a:link {
     color: #000000;
 }
 
-#details-container a:hover{
+#details-container a:hover {
     color: #727272;
 }
 
-#details-container a:visited{
+#details-container a:visited {
     color: #000000;
 }
 
-#details-container a:active{
+#details-container a:active {
     color: #000000;
 }
 
 #address-hours {
     grid-area: Bottom;
     text-align: left;
+    margin-top: 2vw;
 }
 
 #links {
@@ -424,24 +436,23 @@ nav {
     justify-content: center;
 }
 
-
-#footer a:hover{
+#footer a:hover {
     color: #4e4e4e;
 }
 
-#help-links{
+#help-links {
     padding: 20px;
 }
 
-#terms-privacy-links{
+#terms-privacy-links {
     padding: 20px;
 }
 
-#telstra-links{
+#telstra-links {
     padding: 20px;
 }
 
-#copyright{
+#copyright {
     display: flex;
     justify-content: center;
 }
