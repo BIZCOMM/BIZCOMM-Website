@@ -397,19 +397,19 @@ nav {
     text-align: left;
 }
 
-#email-linkedin a:link{
+#details-container a:link{
     color: #000000;
 }
 
-#email-linkedin a:hover{
-    color: #4e4e4e;
+#details-container a:hover{
+    color: #727272;
 }
 
-#email-linkedin a:visited{
+#details-container a:visited{
     color: #000000;
 }
 
-#email-linkedin a:active{
+#details-container a:active{
     color: #000000;
 }
 
