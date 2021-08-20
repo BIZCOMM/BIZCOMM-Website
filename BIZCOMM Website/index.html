@@ -8,7 +8,8 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="assets/style.css" type="text/css">
     <link rel="icon" href="images/BIZCOMM Logo Black&White.png">
-    <script src=”assets/jquery-3.6.0.min.js”></script>
+    <script src="assets/index.js"></script>
+    <script src="assets/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function() {
 
@@ -19,6 +20,27 @@
             })
 
         })
+    </script>
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            const BIZCOMM = {
+                lat: -33.85122457556376,
+                lng: 150.89531463425052
+            };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 10,
+                center: BIZCOMM,
+            });
+            // The marker, positioned at Uluru
+            const marker = new google.maps.Marker({
+                position: BIZCOMM,
+                map: map,
+            });
+        }
     </script>
 
 </head>
@@ -100,7 +122,7 @@
 
         </div>
 
-        <div id="divider-one">
+        <div id="divider-one" class="divider">
             <h1>Technology is best when it brings people together.</h1>
         </div>
 
@@ -167,7 +189,7 @@
 
         </div>
 
-        <div id="divider-two">
+        <div id="divider-two" class="divider">
 
             <h1>We service over 300+ customers around Australia.</h1>
 
@@ -195,7 +217,7 @@
 
         </div>
 
-        <div id="divider-three">
+        <div id="divider-three" class="divider">
 
             <h1>[Insert customer reviews and stuff yep]</h1>
 
@@ -277,7 +299,11 @@
 
         </div>
 
-        <div id="divider-four"></div>
+        <div id="map" class="divider">
+
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHwQJTlDnaONNe4h_vX6RwINAaj3XROV8&callback=initMap&libraries=&v=weekly" async></script>
+
+        </div>
 
         <div id="contact-us" class="card">
 

@@ -421,6 +421,11 @@ nav {
     background-position: 50% 50%;
 }
 
+
+/* #divider-four {
+
+} */
+
 #details-container {
     display: grid;
     grid-auto-columns: 1fr;
