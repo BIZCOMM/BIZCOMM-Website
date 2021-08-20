@@ -11,15 +11,21 @@
     <script src="assets/index.js"></script>
     <script src="assets/jquery-3.6.0.min.js"></script>
     <script>
-        $(document).ready(function() {
+        $(".nav-link").on('click', function(event) {
 
-            $('#Thanh').hover(function() {
-                $('thanh-info').animate({
-                    opacity: 1,
-                }, 300)
-            })
+            // Prevent default anchor click behavior
+            event.preventDefault();
 
-        })
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800);
+
+        });
     </script>
 
 </head>
@@ -47,12 +53,12 @@
         <nav>
 
             <ul id="nav-links">
-                <li><a id="nav-link" href="#">Home</a></li>
-                <li><a id="nav-link" href="#about-us">About Us</a></li>
-                <li><a id="nav-link" href="#our-partners">Our Partners</a></li>
-                <li><a id="nav-link" href="#our-services">Our Services</a></li>
-                <li><a id="nav-link" href="#meet-team">Meet the Team</a></li>
-                <li><a id="nav-link" href="#contact-us">Contact Us</a></li>
+                <li><a class="nav-link" href="#">Home</a></li>
+                <li><a class="nav-link" href="#about-us">About Us</a></li>
+                <li><a class="nav-link" href="#our-partners">Our Partners</a></li>
+                <li><a class="nav-link" href="#our-services">Our Services</a></li>
+                <li><a class="nav-link" href="#meet-team">Meet the Team</a></li>
+                <li><a class="nav-link" href="#contact-us">Contact Us</a></li>
             </ul>
 
         </nav>

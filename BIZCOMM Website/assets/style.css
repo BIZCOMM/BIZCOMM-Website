@@ -199,8 +199,6 @@ nav {
     vertical-align: middle;
 }
 
-#nav-link {}
-
 .card {
     display: flex;
     flex-direction: column;
