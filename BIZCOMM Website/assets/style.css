@@ -378,7 +378,47 @@ nav {
 }
 
 .people:hover {
-    background-color: #000000;
+    background-color: #ffffff;
+}
+
+.people-info {
+    opacity: 0;
+}
+
+#Thanh {
+    background-image: url(/assets/images/Thanh.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#Kevin {
+    background-image: url(/assets/images/Kevin.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#Brendan {
+    background-image: url(/assets/images/Brendan.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#Jack {
+    background-image: url(/assets/images/Jack.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#Grace {
+    background-image: url(/assets/images/Grace.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#Victor {
+    background-image: url(/assets/images/Temp-BG.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 #details-container {
