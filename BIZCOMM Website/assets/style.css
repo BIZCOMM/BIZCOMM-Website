@@ -81,14 +81,15 @@ h4 {
     text-align: left;
     line-height: 2vw;
     margin: 0 auto;
-    margin-top: 1vw;
+    margin-top: 2vw;
     margin-bottom: 0.5vw;
 }
 
 h5 {
     font-size: 1.0vw;
     font-weight: 300;
-    margin: 0 auto;
+    margin: 1vw auto;
+    margin-top: 0.5vw;
 }
 
 p {
@@ -380,10 +381,6 @@ nav {
     background-color: #000000;
 }
 
-#footer {
-    height: 20vw;
-}
-
 #details-container {
     display: grid;
     grid-auto-columns: 1fr;
@@ -392,6 +389,10 @@ nav {
     gap: 0px 0px;
     grid-template-areas: "TopLeft TopRight" "Bottom Bottom";
     line-height: 0.5vw;
+}
+
+#contact-header {
+    margin-top: 5vw;
 }
 
 .contact-link:link {
@@ -430,14 +431,54 @@ nav {
     margin-top: 2vw;
 }
 
+#footer {
+    height: 10vw;
+}
+
 #links {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #333333;
+    padding: 1vw 0;
+}
+
+#copyright {
+    background-color: #000000;
+}
+
+#footer-logo {
+    height: 10vw;
+    width: 10vw;
+}
+
+#footer h5 {
+    color: #d3d3d3;
+    margin-bottom: 0.3vw;
+}
+
+#footer a {
+    color: #bebebe;
+    transition: 0.3s ease;
+    margin: 0.3vw 0;
+}
+
+#footer ul {
+    height: 5vw;
+}
+
+#footer ul li {
+    margin-bottom: 0.4vw;
+}
+
+#footer a:link {
+    color: #bebebe;
+    transition: 0.3s ease;
+    margin: 0.3vw 0;
 }
 
 #footer a:hover {
-    color: #4e4e4e;
+    color: #ffffff;
 }
 
 #help-links {
