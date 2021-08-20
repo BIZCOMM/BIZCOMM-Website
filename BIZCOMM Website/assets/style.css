@@ -375,14 +375,41 @@ nav {
     width: 15vw;
     background-color: #c7c7c7;
     transition: 0.3s ease;
+    perspective: 1000px;
 }
 
 .people:hover {
     background-color: #ffffff;
 }
 
+.people-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.people:hover .people-inner{
+    transform: rotateY(180deg);
+}
+
+.people-photo, .people-info{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+.people-photo{
+    background-color: #bbb;
+    color: black;
+}
+
 .people-info {
-    opacity: 0;
+    transform: rotateY(180deg);
 }
 
 #Thanh {
@@ -391,40 +418,6 @@ nav {
     background-position: 50% 50%;
 }
 
-#Kevin {
-    background-image: url(/assets/images/Kevin.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-#Brendan {
-    background-image: url(/assets/images/Brendan.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-#Jack {
-    background-image: url(/assets/images/Jack.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-#Grace {
-    background-image: url(/assets/images/Grace.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-#Victor {
-    background-image: url(/assets/images/Temp-BG.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-
-/* #divider-four {
-
-} */
 
 #details-container {
     display: grid;
