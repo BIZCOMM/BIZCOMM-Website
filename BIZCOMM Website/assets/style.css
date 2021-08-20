@@ -307,6 +307,9 @@ nav {
     height: 10vw;
     width: 15vw;
     margin: 1vw 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .partner-logo:hover {
@@ -314,7 +317,7 @@ nav {
 }
 
 .logo-link:link {
-    margin: 0;
+    margin: auto;
 }
 
 #logo-row-one {
@@ -327,6 +330,10 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+#partner-logo-img {
+    margin: auto;
 }
 
 #divider-two {
