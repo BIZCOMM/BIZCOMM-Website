@@ -22,27 +22,6 @@
         })
     </script>
 
-    <script>
-        // Initialize and add the map
-        function initMap() {
-            // The location of Uluru
-            const BIZCOMM = {
-                lat: -33.85122457556376,
-                lng: 150.89531463425052
-            };
-            // The map, centered at Uluru
-            const map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 10,
-                center: BIZCOMM,
-            });
-            // The marker, positioned at Uluru
-            const marker = new google.maps.Marker({
-                position: BIZCOMM,
-                map: map,
-            });
-        }
-    </script>
-
 </head>
 
 <body>
@@ -301,7 +280,7 @@
 
         <div id="map" class="divider">
 
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHwQJTlDnaONNe4h_vX6RwINAaj3XROV8&callback=initMap&libraries=&v=weekly" async></script>
+            <iframe width="100%" height="100%" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJM-_PhkKXEmsRc7w90ulBaHs&key=AIzaSyAHwQJTlDnaONNe4h_vX6RwINAaj3XROV8"></iframe>
 
         </div>
 
