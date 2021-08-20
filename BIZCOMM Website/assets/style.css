@@ -389,7 +389,7 @@ nav {
 .people {
     height: 10vw;
     width: 15vw;
-    background-color: #c7c7c7;
+    background-color: #ffffff;
     transition: 0.3s ease;
     perspective: 1000px;
 }
