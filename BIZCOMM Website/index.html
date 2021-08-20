@@ -11,21 +11,6 @@
     <script src="assets/index.js"></script>
     <script src="assets/jquery-3.6.0.min.js"></script>
     <script>
-        $(".nav-link").on('click', function(event) {
-
-            // Prevent default anchor click behavior
-            event.preventDefault();
-
-            // Store hash
-            var hash = this.hash;
-
-            // Using jQuery's animate() method to add page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800);
-
-        });
     </script>
 
 </head>
@@ -220,7 +205,7 @@
 
             <div id="team-container">
                 <div id="Thanh" class="people">
-                    
+
                     <div id="Thanh-inner" class="people-inner">
                         <div id="Thanh-photo" class="people-photo">
                             <img src="assets/images/Thanh.jpg" alt="Thanh" style="width: 15vw;height: 10vw;">
@@ -307,7 +292,7 @@
 
                     <div id="Victor-inner" class="people-inner">
                         <div id="Victor-photo" class="people-photo">
-                            <img src="assets/images/Thanh.jpg" alt="Victor" style="width: 15vw;height: 10vw;">
+                            <img src="assets/images/Victor.jpg" alt="Victor" style="width: 15vw;height: 10vw;">
                         </div>
                         <div id="Victor-info" class="people-info">
 
@@ -343,7 +328,7 @@
 
                     <h4>CALL BIZCOMM</h4>
 
-                    <a href = "tel:(02)(98283700)">02 9828 3700</a>
+                    <a href="tel:(02)(98283700)">02 9828 3700</a>
 
                     <h4>OUR ABN</h4>
 
@@ -359,7 +344,7 @@
 
                     <h4>CHECK OUT OUR LINKEDIN</h4>
 
-                    <a href = "https://linkedin.com/company/bizcomm-au" target="_blank" rel="noopener noreferrer">linkedin.com/company/bizcomm-au</a>
+                    <a href="https://linkedin.com/company/bizcomm-au" target="_blank" rel="noopener noreferrer">linkedin.com/company/bizcomm-au</a>
 
                 </div>
 
@@ -383,7 +368,11 @@
 
             <div id="links">
 
-                <div id="footer-logo"></div>
+                <div id="footer-logo">
+
+                    <img id="footer-logo-img" src="assets/images/BIZCOMM LOGO White&Blue.png" alt="BIZCOMM Logo">
+
+                </div>
 
                 <div id="help-links">
 

@@ -95,7 +95,7 @@ h5 {
 h6 {
     font-weight: 200;
     margin: auto;
-    margin-bottom: 0.5vh;
+    margin-bottom: 0.25vw;
 }
 
 p {
@@ -386,7 +386,7 @@ nav {
     background-color: #ffffff;
 }
 
-.people-inner{
+.people-inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -395,20 +395,22 @@ nav {
     transform-style: preserve-3d;
 }
 
-.people:hover .people-inner{
+.people:hover .people-inner {
     transform: rotateY(180deg);
 }
 
-.people-photo, .people-info{
+.people-photo,
+.people-info {
     position: absolute;
     width: 100%;
     height: 100%;
     align-items: center;
-    -webkit-backface-visibility: hidden; /* Safari */
+    -webkit-backface-visibility: hidden;
+    /* Safari */
     backface-visibility: hidden;
 }
 
-.people-photo{
+.people-photo {
     width: 90%;
     height: 90%;
     background-color: #bbb;
@@ -417,7 +419,10 @@ nav {
 
 .people-info {
     position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     transform: rotateY(180deg);
 }
 
@@ -499,12 +504,18 @@ nav {
     width: 10vw;
 }
 
+#footer-logo-img {
+    width: 100%;
+    height: 100%;
+}
+
 #footer h5 {
     color: #d3d3d3;
     margin-bottom: 0.3vw;
 }
 
 #footer a {
+    font-size: 1vw;
     color: #bebebe;
     transition: 0.3s ease;
     margin: 0.3vw 0;
@@ -515,6 +526,7 @@ nav {
 }
 
 #footer ul li {
+    padding: 0;
     margin-bottom: 0.4vw;
 }
 
