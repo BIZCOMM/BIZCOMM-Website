@@ -86,10 +86,11 @@ h4 {
 }
 
 h5 {
-    font-size: 1.0vw;
+    font-size: 1.3vw;
     font-weight: 300;
     margin: 1vw auto;
     margin-top: 0.5vw;
+    color: #292929;
 }
 
 h6 {
@@ -453,6 +454,11 @@ nav {
     gap: 0px 0px;
     grid-template-areas: "TopLeft TopRight" "Bottom Bottom";
     line-height: 0.5vw;
+}
+
+#details-container a {
+    font-size: 1.3vw;
+    color: #292929;
 }
 
 #contact-header {
