@@ -92,6 +92,12 @@ h5 {
     margin-top: 0.5vw;
 }
 
+h6 {
+    font-weight: 200;
+    margin: auto;
+    margin-bottom: 0.25vw;
+}
+
 p {
     font-size: 1vw;
     font-weight: 300;
@@ -200,8 +206,6 @@ nav {
     vertical-align: middle;
     
 }
-
-#nav-link {}
 
 .card {
     display: flex;
@@ -377,50 +381,51 @@ nav {
     width: 15vw;
     background-color: #c7c7c7;
     transition: 0.3s ease;
+    perspective: 1000px;
 }
 
 .people:hover {
     background-color: #ffffff;
 }
 
+.people-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.people:hover .people-inner {
+    transform: rotateY(180deg);
+}
+
+.people-photo,
 .people-info {
-    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
 }
 
-#Thanh {
-    background-image: url(/assets/images/Thanh.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+.people-photo {
+    width: 90%;
+    height: 90%;
+    background-color: #bbb;
+    color: black;
 }
 
-#Kevin {
-    background-image: url(/assets/images/Kevin.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-#Brendan {
-    background-image: url(/assets/images/Brendan.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-#Jack {
-    background-image: url(/assets/images/Jack.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-#Grace {
-    background-image: url(/assets/images/Grace.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-#Victor {
-    background-image: url(/assets/images/Temp-BG.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+.people-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: rotateY(180deg);
 }
 
 #map {
@@ -501,12 +506,18 @@ nav {
     width: 10vw;
 }
 
+#footer-logo-img {
+    width: 100%;
+    height: 100%;
+}
+
 #footer h5 {
     color: #d3d3d3;
     margin-bottom: 0.3vw;
 }
 
 #footer a {
+    font-size: 1vw;
     color: #bebebe;
     transition: 0.3s ease;
     margin: 0.3vw 0;
@@ -519,6 +530,7 @@ nav {
 }
 
 #footer ul li {
+    padding: 0;
     margin-bottom: 0.4vw;
 }
 
