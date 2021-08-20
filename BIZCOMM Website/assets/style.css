@@ -313,6 +313,10 @@ nav {
     background-color: #cccccc;
 }
 
+.logo-link:link {
+    margin: 0;
+}
+
 #logo-row-one {
     display: flex;
     flex-direction: row;
