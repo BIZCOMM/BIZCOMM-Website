@@ -8,6 +8,25 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="assets/style.css" type="text/css">
     <link rel="icon" href="assets/images/BIZCOMM Logo Black&White.png">
+    <script src="assets/index.js"></script>
+    <script src="assets/jquery-3.6.0.min.js"></script>
+    <script>
+        $(".nav-link").on('click', function(event) {
+
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800);
+
+        });
+    </script>
 
 </head>
 
@@ -34,12 +53,12 @@
         <nav>
 
             <ul id="nav-links">
-                <li><a id="nav-link" href="#">Home</a></li>
-                <li><a id="nav-link" href="#about-us">About Us</a></li>
-                <li><a id="nav-link" href="#our-partners">Our Partners</a></li>
-                <li><a id="nav-link" href="#our-services">Our Services</a></li>
-                <li><a id="nav-link" href="#meet-team">Meet the Team</a></li>
-                <li><a id="nav-link" href="#contact-us">Contact Us</a></li>
+                <li><a class="nav-link" href="#">Home</a></li>
+                <li><a class="nav-link" href="#about-us">About Us</a></li>
+                <li><a class="nav-link" href="#our-partners">Our Partners</a></li>
+                <li><a class="nav-link" href="#our-services">Our Services</a></li>
+                <li><a class="nav-link" href="#meet-team">Meet the Team</a></li>
+                <li><a class="nav-link" href="#contact-us">Contact Us</a></li>
             </ul>
 
         </nav>
@@ -306,7 +325,11 @@
 
         </div>
 
-        <div id="divider-four"></div>
+        <div id="map" class="divider">
+
+            <iframe width="100%" height="100%" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJM-_PhkKXEmsRc7w90ulBaHs&key=AIzaSyAHwQJTlDnaONNe4h_vX6RwINAaj3XROV8"></iframe>
+
+        </div>
 
         <div id="contact-us" class="card">
 

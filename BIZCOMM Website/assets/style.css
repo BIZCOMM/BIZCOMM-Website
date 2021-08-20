@@ -205,8 +205,6 @@ nav {
     vertical-align: middle;
 }
 
-#nav-link {}
-
 .card {
     display: flex;
     flex-direction: column;
@@ -423,6 +421,12 @@ nav {
     transform: rotateY(180deg);
 }
 
+#map {
+    height: 20vw;
+    width: 99.5vw;
+    box-shadow: 0 0 1vw #0000009f;
+    margin: 0 0.5vw;
+}
 
 #details-container {
     display: grid;
