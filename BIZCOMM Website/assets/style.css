@@ -133,6 +133,7 @@ header {
     grid-template-rows: 1fr;
     gap: 0px 0px;
     grid-template-areas: "Logo Nav";
+    z-index: 500;
 }
 
 #logo {
@@ -197,6 +198,7 @@ nav {
     justify-content: center;
     margin: auto;
     vertical-align: middle;
+    
 }
 
 #nav-link {}
@@ -508,6 +510,8 @@ nav {
     color: #bebebe;
     transition: 0.3s ease;
     margin: 0.3vw 0;
+
+
 }
 
 #footer ul {
