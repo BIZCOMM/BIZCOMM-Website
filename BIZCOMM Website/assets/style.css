@@ -204,7 +204,6 @@ nav {
     justify-content: center;
     margin: auto;
     vertical-align: middle;
-    
 }
 
 .card {
@@ -521,8 +520,6 @@ nav {
     color: #bebebe;
     transition: 0.3s ease;
     margin: 0.3vw 0;
-
-
 }
 
 #footer ul {
@@ -532,6 +529,7 @@ nav {
 #footer ul li {
     padding: 0;
     margin-bottom: 0.4vw;
+    height: 1vw;
 }
 
 #footer a:link {
