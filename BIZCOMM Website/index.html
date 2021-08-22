@@ -11,6 +11,33 @@
     <script src="assets/index.js"></script>
     <script src="assets/jquery-3.6.0.min.js"></script>
     <script>
+        $(function() {
+            var messages = [],
+                index = 0;
+
+            messages.push("[Quick]");
+            messages.push("[Creative]");
+            messages.push("[Innovative]");
+            messages.push("[Elevative]");
+            messages.push("[Effective]");
+            messages.push("[Cultivative]");
+            messages.push("[Sophisticated]");
+            messages.push("[Systematic]");
+            messages.push("[Productive]");
+
+            function cycle() {
+                $('#second-text').html(messages[index]);
+                index++;
+
+                if (index === messages.length) {
+                    index = 0;
+                }
+
+                setTimeout(cycle, 3000);
+            }
+
+            cycle();
+        });
     </script>
 
 </head>
@@ -55,7 +82,8 @@
         <div id="BIZCOMM" class="card">
 
             <h1 id="first-text">Our technichal solutions are </h1>
-            <h1 id="second-text">[Innovative].</h1>
+            <h1 id="second-text">[Innovative]</h1>
+            <h1 id="third-text">.</h1>
 
         </div>
 
@@ -421,8 +449,10 @@
 
                     <ul>
                         <li><a href="http://connectapp.telstra.com/">Telstra Connect</a></li>
-                        <li><a href="https://signon.telstra.com/register?goto=https://yourtelstratools.telstra.com/enterprise/yourtelstratools">Telstra Tools</a></li>
-                        <li><a href="https://partners.enterprise.telstra.com.au/enterprisesupport/s/customer-support">Raise a Case</a></li>
+                        <li><a href="https://signon.telstra.com/register?goto=https://yourtelstratools.telstra.com/enterprise/yourtelstratools">Telstra
+                                Tools</a></li>
+                        <li><a href="https://partners.enterprise.telstra.com.au/enterprisesupport/s/customer-support">Raise
+                                a Case</a></li>
                         <li><a href="https://outages.telstra.com.au/#/">Check for Outages</a></li>
                     </ul>
 

@@ -264,9 +264,16 @@ nav {
 
 #second-text {
     background-color: #000000ab;
+    padding: 1vw 0;
+    color: #00eeff;
+}
+
+#third-text {
+    color: #ffffff;
     padding: 1vw;
     padding-left: 0;
-    color: #00eeff;
+    padding-right: 1vw;
+    background-color: #000000ab;
 }
 
 #about-us {
@@ -319,6 +326,10 @@ nav {
 
 .logo-link:link {
     margin: auto;
+}
+
+#telstra-logo .logo-link {
+    margin-top: 3.6vw;
 }
 
 #logo-row-one {
