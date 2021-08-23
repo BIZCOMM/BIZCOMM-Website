@@ -610,7 +610,7 @@ nav {
     border-radius: 0.3vw;
     font: normal 2.5vw/3vw Montserrat, sans-serif;
     background-color: #00000059;
-    padding: 0 1vw
+    padding: 2vw 1vw;
 }
 
 .BIZCOMM p {
@@ -618,7 +618,7 @@ nav {
     float: left;
     margin: 0.2vw 0;
     margin-right: 0.3em;
-    font-size: 2.5vw;
+    font-size: 4vw;
     font-weight: 600;
     color: #ffffff;
     padding-top: 0.7vw;
@@ -628,11 +628,12 @@ nav {
     float: left;
     overflow: hidden;
     position: relative;
-    height: 3vw;
+    height: 6vw;
     top: 2.5vw;
     text-align: left;
-    margin-top: -2vw;
-    line-height: 3.06vw;
+    line-height: 6.1vw;
+    font-size: 4vw;
+    margin-top: -4vw;
 }
 
 .BIZCOMM .innerBIZCOMM {
@@ -667,31 +668,31 @@ nav {
         top: 0px;
     }
     10% {
-        top: -6vh;
-    }
-    20% {
         top: -12vh;
     }
-    30% {
-        top: -18vh;
-    }
-    40% {
+    20% {
         top: -24vh;
     }
-    50% {
-        top: -30vh;
-    }
-    60% {
+    30% {
         top: -36vh;
     }
-    70% {
-        top: -42vh;
-    }
-    80% {
+    40% {
         top: -48vh;
     }
+    50% {
+        top: -60vh;
+    }
+    60% {
+        top: -72vh;
+    }
+    70% {
+        top: -84vh;
+    }
+    80% {
+        top: -96vh;
+    }
     90% {
-        top: -54vh;
+        top: -108vh;
     }
 }
 
@@ -700,31 +701,31 @@ nav {
         top: 0px;
     }
     10% {
-        top: -6vh;
-    }
-    20% {
         top: -12vh;
     }
-    30% {
-        top: -18vh;
-    }
-    40% {
+    20% {
         top: -24vh;
     }
-    50% {
-        top: -30vh;
-    }
-    60% {
+    30% {
         top: -36vh;
     }
-    70% {
-        top: -42vh;
-    }
-    80% {
+    40% {
         top: -48vh;
     }
+    50% {
+        top: -60vh;
+    }
+    60% {
+        top: -72vh;
+    }
+    70% {
+        top: -84vh;
+    }
+    80% {
+        top: -96vh;
+    }
     90% {
-        top: -54vh;
+        top: -108vh;
     }
 }
 
@@ -733,31 +734,31 @@ nav {
         top: 0px;
     }
     10% {
-        top: -6vh;
-    }
-    20% {
         top: -12vh;
     }
-    30% {
-        top: -18vh;
-    }
-    40% {
+    20% {
         top: -24vh;
     }
-    50% {
-        top: -30vh;
-    }
-    60% {
+    30% {
         top: -36vh;
     }
-    70% {
-        top: -42vh;
-    }
-    80% {
+    40% {
         top: -48vh;
     }
+    50% {
+        top: -60vh;
+    }
+    60% {
+        top: -72vh;
+    }
+    70% {
+        top: -84vh;
+    }
+    80% {
+        top: -96vh;
+    }
     90% {
-        top: -54vh;
+        top: -108vh;
     }
 }
 
@@ -766,31 +767,31 @@ nav {
         top: 0px;
     }
     10% {
-        top: -6vh;
-    }
-    20% {
         top: -12vh;
     }
-    30% {
-        top: -18vh;
-    }
-    40% {
+    20% {
         top: -24vh;
     }
-    50% {
-        top: -30vh;
-    }
-    60% {
+    30% {
         top: -36vh;
     }
-    70% {
-        top: -42vh;
-    }
-    80% {
+    40% {
         top: -48vh;
     }
+    50% {
+        top: -60vh;
+    }
+    60% {
+        top: -72vh;
+    }
+    70% {
+        top: -84vh;
+    }
+    80% {
+        top: -96vh;
+    }
     90% {
-        top: -54vh;
+        top: -108vh;
     }
 }
 
@@ -799,30 +800,30 @@ nav {
         top: 0px;
     }
     10% {
-        top: -6vh;
-    }
-    20% {
         top: -12vh;
     }
-    30% {
-        top: -18vh;
-    }
-    40% {
+    20% {
         top: -24vh;
     }
-    50% {
-        top: -30vh;
-    }
-    60% {
+    30% {
         top: -36vh;
     }
-    70% {
-        top: -42vh;
-    }
-    80% {
+    40% {
         top: -48vh;
     }
+    50% {
+        top: -60vh;
+    }
+    60% {
+        top: -72vh;
+    }
+    70% {
+        top: -84vh;
+    }
+    80% {
+        top: -96vh;
+    }
     90% {
-        top: -54vh;
+        top: -108vh;
     }
 }
