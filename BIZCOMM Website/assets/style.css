@@ -393,7 +393,6 @@ nav {
 #services-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     margin-bottom: 2vw;
 }
 
@@ -405,11 +404,57 @@ nav {
     height: 25vw;
     width: 18vw;
     margin: 1vw 1vw;
+    align-items: center;
+    padding: 20px;
     background-color: #ffffff;
+    transition: 0.3s ease;
+    perspective: 1000px;
 }
 
-.service-box:hover {
-    background-color: #000000;
+.service-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.service-front,
+.service-text {
+    position: absolute;
+    width: 20vw;
+    height: 18vw;
+    align-items: center;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+.service-box:hover .service-inner{
+    transform: rotateY(180deg);
+}
+
+.service-front {
+    width: 20vw;
+    height: 18vw;
+    color: black;
+}
+
+.service-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform: rotateY(180deg);
+}
+
+.service-text li{
+    list-style-type: circle;
+    list-style-position: inside;
+    align-items: center;
+    font-size: 1.2vw;
 }
 
 #divider-three {
