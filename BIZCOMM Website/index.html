@@ -25,17 +25,21 @@
             var sectNum = 0;
 
             $("#down-scroll-button").click(function() {
-                sectNum += 1;
-                $('html, body').animate({
-                    scrollTop: $("#" + sections[sectNum]).offset().top
-                }, 1500);
+                if (sectNum < sections.length) {
+                    sectNum += 1;
+                    $('html, body').animate({
+                        scrollTop: $("#" + sections[sectNum]).offset().top
+                    }, 1500);
+                }
             });
 
             $("#up-scroll-button").click(function() {
-                sectNum -= 1;
-                $('html, body').animate({
-                    scrollTop: $("#" + sections[sectNum]).offset().top
-                }, 1500);
+                if (sectNum > 0) {
+                    sectNum -= 1;
+                    $('html, body').animate({
+                        scrollTop: $("#" + sections[sectNum]).offset().top
+                    }, 1500);
+                }
             });
         })
     </script>
