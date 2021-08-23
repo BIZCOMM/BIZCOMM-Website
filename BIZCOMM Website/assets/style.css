@@ -421,6 +421,7 @@ nav {
 
 .service-text li{
     list-style-type: circle;
+    list-style-position: inside;
     align-items: center;
     font-size: 1.2vw;
 }
