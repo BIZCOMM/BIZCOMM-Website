@@ -394,7 +394,6 @@ nav {
     position: absolute;
     width: 20vw;
     height: 18vw;
-    align-items: center;
     -webkit-backface-visibility: hidden;
     /* Safari */
     backface-visibility: hidden;
@@ -411,7 +410,7 @@ nav {
 }
 
 .service-text {
-    position: absolute;
+    position: inside;
     left: 0;
     top: 0;
     right: 0;
@@ -422,7 +421,7 @@ nav {
 .service-text li{
     list-style-type: circle;
     list-style-position: inside;
-    align-items: center;
+    padding-left: 50px;
     font-size: 1.2vw;
 }
 
