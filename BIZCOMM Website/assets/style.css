@@ -211,6 +211,37 @@ nav {
     vertical-align: middle;
 }
 
+#scroll-buttons {
+    position: fixed;
+    top: 22vw;
+    right: 1vw;
+    width: 4vw;
+    height: 8vw;
+    border-radius: 2vw;
+    background-color: #00000083;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.scroll-button {
+    margin: auto;
+    width: 3vw;
+    height: 3vw;
+    border: 0.2vw solid #ffffffc4;
+    border-radius: 2vw;
+    font-size: 2vw;
+    background-color: #00000000;
+    color: #ffffffc4;
+    transition: 0.3s;
+}
+
+.scroll-button:hover {
+    border-color: #ffffff;
+    background-color: #000000c4;
+    color: #ffffff;
+}
+
 .card {
     display: flex;
     flex-direction: column;

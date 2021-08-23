@@ -12,32 +12,32 @@
     <script src="assets/jquery-3.6.0.min.js"></script>
     <script>
         $(function() {
-            var messages = [],
+            var sections = [],
                 index = 0;
 
-            messages.push("[Quick]");
-            messages.push("[Creative]");
-            messages.push("[Innovative]");
-            messages.push("[Elevative]");
-            messages.push("[Effective]");
-            messages.push("[Cultivative]");
-            messages.push("[Sophisticated]");
-            messages.push("[Systematic]");
-            messages.push("[Productive]");
+            sections.push("BIZCOMM");
+            sections.push("about-us");
+            sections.push("our-partners");
+            sections.push("our-services");
+            sections.push("meet-team");
+            sections.push("contact-us");
 
-            function cycle() {
-                $('#second-text').html(messages[index]);
-                index++;
+            var sectNum = 0;
 
-                if (index === messages.length) {
-                    index = 0;
-                }
+            $("#down-scroll-button").click(function() {
+                sectNum += 1;
+                $('html, body').animate({
+                    scrollTop: $("#" + sections[sectNum]).offset().top
+                }, 1500);
+            });
 
-                setTimeout(cycle, 2500);
-            }
-
-            cycle();
-        });
+            $("#up-scroll-button").click(function() {
+                sectNum -= 1;
+                $('html, body').animate({
+                    scrollTop: $("#" + sections[sectNum]).offset().top
+                }, 1500);
+            });
+        })
     </script>
 
 </head>
@@ -76,6 +76,14 @@
         </nav>
 
     </header>
+
+    <div id="scroll-buttons">
+
+        <button id="up-scroll-button" class="scroll-button">↑</button>
+
+        <button id="down-scroll-button" class="scroll-button">↓</button>
+
+    </div>
 
     <div id="content">
 
