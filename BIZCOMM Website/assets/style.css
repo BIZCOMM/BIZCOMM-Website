@@ -451,8 +451,13 @@ nav {
     margin-top: 2vw;
 }
 
+#net-tele-service img {
+    margin-top: 4.2vw;
+}
+
 #Cloud-Front img {
-    margin-top: 5vw;
+    margin-top: 6vw;
+    max-width: 70%;
 }
 
 .service-text {
@@ -473,10 +478,11 @@ nav {
 }
 
 .service-text li {
-    list-style-type: circle;
+    list-style-type: none;
     list-style-position: inside;
     font-size: 1.2vw;
-    padding-left: 0.5vw;
+    padding-left: 1.3vw;
+    line-height: 1.8vw;
 }
 
 .service-text img {
