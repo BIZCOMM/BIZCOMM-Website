@@ -722,6 +722,38 @@ nav {
     background-size: contain;
 }
 
+.video-grid{
+    display: inline-block;
+    width: 40vw;
+    height: 20vw;
+}
+
+.video-item{
+    overflow: hidden;
+}
+
+.video-wrap{
+    position:relative;
+    padding-bottom: 56.25%;
+}
+
+.video-item iframe{
+    position: absolute;
+    display: inline-block;
+    width: 40vw;
+    height: 20vw;
+}
+
+
+.video-item {
+    margin-top: 0;
+  }
+  
+.video-item iframe {
+    border: 0.125rem solid transparent;
+}
+
+
 #careers-home {
     max-width: 100vw;
     width: 100vw;
