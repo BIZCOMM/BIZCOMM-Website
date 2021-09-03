@@ -31,7 +31,6 @@
             $("#down-scroll-button").click(function() {
                 if (sectNum < sections.length) {
                     sectNum += 1;
-                    console.log(sectNum);
                     $('html, body').stop().animate({
                         scrollTop: $("#" + sections[sectNum]).offset().top
                     }, 1500);
@@ -41,7 +40,6 @@
             $("#up-scroll-button").click(function() {
                 if (sectNum > 0) {
                     sectNum -= 1;
-                    console.log(sectNum);
                     $('html, body').stop().animate({
                         scrollTop: $("#" + sections[sectNum]).offset().top
                     }, 1500);
