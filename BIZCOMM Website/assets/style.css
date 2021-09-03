@@ -736,7 +736,11 @@ nav {
     justify-content: center;
 }
 
+<<<<<<< Updated upstream
 .knowledge-video iframe {
+=======
+.knowledge-video iframe{
+>>>>>>> Stashed changes
     height: 30vw;
     width: 20vw;
 }

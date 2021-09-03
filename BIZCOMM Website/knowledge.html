@@ -18,6 +18,34 @@
     <script src="assets/index.js"></script>
     <script src="assets/jquery-3.6.0.min.js"></script>
     <script>
+        $(function() {
+            var sections = [],
+                index = 0;
+
+            sections.push("BIZCOMM");
+            sections.push("our-knowledge");
+            sections.push("footer");
+
+            var sectNum = 0;
+
+            $("#down-scroll-button").click(function() {
+                if (sectNum < sections.length) {
+                    sectNum += 1;
+                    $('html, body').stop().animate({
+                        scrollTop: $("#" + sections[sectNum]).offset().top
+                    }, 1500);
+                }
+            });
+
+            $("#up-scroll-button").click(function() {
+                if (sectNum > 0) {
+                    sectNum -= 1;
+                    $('html, body').stop().animate({
+                        scrollTop: $("#" + sections[sectNum]).offset().top
+                    }, 1500);
+                }
+            });
+        })
     </script>
 
 </head>
@@ -115,9 +143,9 @@
                 </div>
             </div>
         </div> -->
-        <div id="our-partners" class="card">
+        <div id="our-knowledge" class="card">
 
-            <div id="partners-header">
+            <div id="knowledge-header">
 
                 <h2>Knowledge Videos</h2>
 
