@@ -728,7 +728,7 @@ nav {
 }
 
 .knowledge-video {
-    height: 15vw;
+    height: 13vw;
     width: 20vw;
     margin: 2vw 3vw;
     display: flex;
@@ -737,7 +737,7 @@ nav {
 }
 
 .knowledge-video iframe {
-    height: 30vw;
+    height: 13vw;
     width: 20vw;
 }
 
