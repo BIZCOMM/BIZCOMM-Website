@@ -128,12 +128,11 @@ a:hover {
 header {
     height: 12vh;
     background-color: #000000d0;
-    margin-left: -1vw;
     margin-top: -0.5vw;
     margin-right: -0.5vw;
     position: fixed;
     top: 0;
-    width: 103vw;
+    width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
