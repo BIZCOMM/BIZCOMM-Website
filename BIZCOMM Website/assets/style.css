@@ -152,15 +152,14 @@ header {
 
 #logo-img {
     grid-area: Icon;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: start;
+    margin-right: 0;
 }
 
 #logo-image {
     max-width: 5vw;
     max-height: 5vw;
     margin-top: 0.7vw;
+    padding-left: 2vw;
 }
 
 #logo-text {
