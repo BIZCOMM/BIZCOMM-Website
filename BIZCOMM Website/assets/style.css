@@ -822,7 +822,7 @@ nav {
 
 .info-iframe {
     width: 90vw;
-    height: 80vw;
+    height: 76vh;
 }
 
 .info {
@@ -837,8 +837,9 @@ nav {
 }
 
 .actual-info {
-    height: 200vh;
+    height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 c {
