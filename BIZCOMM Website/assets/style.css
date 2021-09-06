@@ -739,6 +739,7 @@ nav {
 .knowledge-video iframe {
     height: 13vw;
     width: 20vw;
+    border: none;
 }
 
 #video-row {
