@@ -157,7 +157,7 @@ header {
 
 #logo-image {
     max-width: 5vw;
-    max-height: 5vw;
+    max-height: 10vh;
     margin-top: 0.7vw;
     padding-left: 2vw;
 }
