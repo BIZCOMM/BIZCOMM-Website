@@ -820,6 +820,11 @@ nav {
     position: relative;
 }
 
+.info-iframe {
+    width: 90vw;
+    height: 80vw;
+}
+
 .info {
     max-width: 100vw;
     width: 90vw;
