@@ -28,7 +28,7 @@
             $("#down-scroll-button").click(function() {
                 if (sectNum < sections.length) {
                     sectNum += 1;
-                    $('html, body').animate({
+                    $('html, body').stop().animate({
                         scrollTop: $("#" + sections[sectNum]).offset().top
                     }, 1500);
                 }
@@ -37,7 +37,7 @@
             $("#up-scroll-button").click(function() {
                 if (sectNum > 0) {
                     sectNum -= 1;
-                    $('html, body').animate({
+                    $('html, body').stop().animate({
                         scrollTop: $("#" + sections[sectNum]).offset().top
                     }, 1500);
                 }
@@ -277,7 +277,7 @@
                             <img src="assets/images/Network&Telephony.png" alt="Network & Telephony" style="max-width: 20vw; max-height: 20vw;">
                         </div>
                         <div id="N&T-Text" class="service-text">
-                            <img src="assets/images/Network&Telephony Text.png" Alt="Network & Telephony" style="max-width: 13vw; max-height: 10vw;">
+                            <img id="net-inner-title" src="assets/images/Network&Telephony Text.png" Alt="Network & Telephony" style="max-width: 13vw; max-height: 10vw;">
                             <h5>At Bizcomm our Network & Telephony Services include:</h5>
                             <ul>
                                 <li>NBN Migrations</li>
