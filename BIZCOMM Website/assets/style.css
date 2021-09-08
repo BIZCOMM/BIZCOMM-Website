@@ -519,10 +519,10 @@ nav {
 #team-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    max-width: 45vw;
-    max-height: 21vw;
+    max-width: 50vw;
+    max-height: 30vw;
 }
 
 .people {
@@ -531,6 +531,7 @@ nav {
     background-color: #ffffff;
     transition: 0.3s ease;
     perspective: 1000px;
+    margin: 1vw 0;
 }
 
 .people:hover {
