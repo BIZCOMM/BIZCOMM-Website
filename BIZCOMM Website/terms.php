@@ -30,11 +30,11 @@
             var sections = [],
                 index = 0;
 
-            sections.push("terms-home");
-            sections.push("about-terms");
-            sections.push("tnc");
-            sections.push("privacy");
-            sections.push("footer");
+            sections.push("#dest1");
+            sections.push("#dest2");
+            sections.push("#dest3");
+            sections.push("#dest4");
+            sections.push("#dest7");
 
             var sectNum = 0;
 
@@ -62,36 +62,7 @@
 
 <body>
 
-    <header>
-        <div id="logo">
-
-            <div id="logo-img">
-
-                <img id="logo-image" src="assets/images/BIZCOMM Logo Black&White.png" alt="BIZCOMM Logo">
-
-            </div>
-
-            <div id="logo-text">
-
-                <h1 id="logo-upper-text">BIZCOMM</h1>
-                <h2 id="logo-lower-text">TECH SOLUTIONS</h2>
-
-            </div>
-
-        </div>
-
-        <nav>
-
-            <ul id="nav-links">
-                <li><a class="nav-link" href="index.html">Home</a></li>
-                <li><a class="nav-link" href="knowledge.html">Knowledge Base</a></li>
-                <li><a class="nav-link" href="careers.html">Careers</a></li>
-                <li><a class="nav-link" href="terms.html">Terms & Privacy</a></li>
-            </ul>
-
-        </nav>
-
-    </header>
+    <?php echo file_get_contents("assets/Header.html"); ?>
 
     <div id="scroll-buttons">
 
@@ -103,7 +74,7 @@
 
     <div id="content">
 
-        <div id="terms-home" class="card">
+        <div id="terms-home" class="card" href="#dest1">
             <div class="BIZCOMM">
 
                 <p>Our team is </p>
@@ -128,7 +99,7 @@
             <h1>At BIZCOMM, we're adhere to our rules and morals.</h1>
         </div>
 
-        <div id="about-terms" class="card">
+        <div id="about-terms" class="card" href="#dest2">
 
             <div id="terms-header">
 
@@ -140,11 +111,11 @@
 
         </div>
 
-        <div id="divider-two" class="divider">
+        <div id="divider-two" class="divider" >
             <h1>TERMS AND CONDITIONS</h1>
         </div>
 
-        <div id="tnc" class="card">
+        <div id="tnc" class="card" href="#dest3">
 
             <div class="info">
 
@@ -166,7 +137,7 @@
 
         </div>
 
-        <div id="privacy" class="card text-wall">
+        <div id="privacy" class="card text-wall" href="#dest4">
 
             <div class="info">
 

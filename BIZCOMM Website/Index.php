@@ -15,13 +15,13 @@
             var sections = [],
                 index = 0;
 
-            sections.push("BIZCOMM");
-            sections.push("about-us");
-            sections.push("our-partners");
-            sections.push("our-services");
-            sections.push("meet-team");
-            sections.push("contact-us");
-            sections.push("footer");
+            sections.push("#dest1");
+            sections.push("#dest2");
+            sections.push("#dest3");
+            sections.push("#dest4");
+            sections.push("#dest5");
+            sections.push("#dest6");
+            sections.push("#dest7");
 
             var sectNum = 0;
 
@@ -49,36 +49,7 @@
 
 <body>
 
-    <header>
-        <div id="logo">
-
-            <div id="logo-img">
-
-                <img id="logo-image" src="assets/images/BIZCOMM Logo Black&White.png" alt="BIZCOMM Logo">
-
-            </div>
-
-            <div id="logo-text">
-
-                <h1 id="logo-upper-text">BIZCOMM</h1>
-                <h2 id="logo-lower-text">TECH SOLUTIONS</h2>
-
-            </div>
-
-        </div>
-
-        <nav>
-
-            <ul id="nav-links">
-                <li><a class="nav-link" href="index.html">Home</a></li>
-                <li><a class="nav-link" href="knowledge.html">Knowledge Base</a></li>
-                <li><a class="nav-link" href="careers.html">Careers</a></li>
-                <li><a class="nav-link" href="terms.html">Terms & Privacy</a></li>
-            </ul>
-
-        </nav>
-
-    </header>
+    <?php echo file_get_contents("assets/Header.html"); ?>
 
     <div id="scroll-buttons">
 
@@ -90,7 +61,7 @@
 
     <div id="content">
 
-        <div id="BIZCOMM" class="card">
+        <div id="BIZCOMM" class="card" href="#dest1">
 
             <!-- <h1 id="first-text">Our technichal solutions are </h1>
             <h1 id="second-text">[Innovative]</h1>
@@ -117,7 +88,7 @@
 
         </div>
 
-        <div id="about-us" class="card">
+        <div id="about-us" class="card" href="#dest2">
 
             <div id="about-header">
 
@@ -154,7 +125,7 @@
             <h1>Technology is best when it brings people together.</h1>
         </div>
 
-        <div id="our-partners" class="card">
+        <div id="our-partners" class="card" href="#dest3">
 
             <div id="partners-header">
 
@@ -238,7 +209,7 @@
 
         </div>
 
-        <div id="our-services" class="card">
+        <div id="our-services" class="card" href="#dest4">
 
             <div id="service-header">
 
@@ -340,7 +311,7 @@
 
         </div>
 
-        <div id="meet-team" class="card">
+        <div id="meet-team" class="card" href="#dest5">
 
             <div id="team-header">
 
@@ -463,7 +434,7 @@
 
         </div>
 
-        <div id="contact-us" class="card">
+        <div id="contact-us" class="card" href="#dest6">
 
             <h2>CONTACT US</h2>
 

@@ -22,9 +22,9 @@
             var sections = [],
                 index = 0;
 
-            sections.push("knowledge-home");
-            sections.push("our-knowledge");
-            sections.push("footer");
+            sections.push("#dest1");
+            sections.push("#dest2");
+            sections.push("#dest7");
 
             var sectNum = 0;
 
@@ -52,36 +52,7 @@
 
 <body>
 
-    <header>
-        <div id="logo">
-
-            <div id="logo-img">
-
-                <img id="logo-image" src="assets/images/BIZCOMM Logo Black&White.png" alt="BIZCOMM Logo">
-
-            </div>
-
-            <div id="logo-text">
-
-                <h1 id="logo-upper-text">BIZCOMM</h1>
-                <h2 id="logo-lower-text">TECH SOLUTIONS</h2>
-
-            </div>
-
-        </div>
-
-        <nav>
-
-            <ul id="nav-links">
-                <li><a class="nav-link" href="index.html">Home</a></li>
-                <li><a class="nav-link" href="knowledge.html">Knowledge Base</a></li>
-                <li><a class="nav-link" href="careers.html">Careers</a></li>
-                <li><a class="nav-link" href="terms.html">Terms & Privacy</a></li>
-            </ul>
-
-        </nav>
-
-    </header>
+    <?php echo file_get_contents("assets/Header.html"); ?>
 
     <div id="scroll-buttons">
 
@@ -93,7 +64,7 @@
 
     <div id="content">
 
-        <div id="knowledge-home" class="card">
+        <div id="knowledge-home" class="card" href="#dest1">
             <div class="BIZCOMM">
 
                 <p>Our knowledge is </p>
@@ -118,7 +89,7 @@
             <h1>Technology is best when it brings people together.</h1>
         </div>
 
-        <div id="our-knowledge" class="card">
+        <div id="our-knowledge" class="card" href="#dest2">
 
             <div id="knowledge-header">
 

@@ -30,9 +30,9 @@
             var sections = [],
                 index = 0;
 
-            sections.push("careers-home");
-            sections.push("about-team");
-            sections.push("footer");
+            sections.push("#dest1");
+            sections.push("#dest2");
+            sections.push("#dest7");
 
             var sectNum = 0;
 
@@ -60,36 +60,7 @@
 
 <body>
 
-    <header>
-        <div id="logo">
-
-            <div id="logo-img">
-
-                <img id="logo-image" src="assets/images/BIZCOMM Logo Black&White.png" alt="BIZCOMM Logo">
-
-            </div>
-
-            <div id="logo-text">
-
-                <h1 id="logo-upper-text">BIZCOMM</h1>
-                <h2 id="logo-lower-text">TECH SOLUTIONS</h2>
-
-            </div>
-
-        </div>
-
-        <nav>
-
-            <ul id="nav-links">
-                <li><a class="nav-link" href="index.html">Home</a></li>
-                <li><a class="nav-link" href="knowledge.html">Knowledge Base</a></li>
-                <li><a class="nav-link" href="careers.html">Careers</a></li>
-                <li><a class="nav-link" href="terms.html">Terms & Privacy</a></li>
-            </ul>
-
-        </nav>
-
-    </header>
+    <?php echo file_get_contents("assets/Header.html"); ?>
 
     <div id="scroll-buttons">
 
@@ -101,7 +72,7 @@
 
     <div id="content">
 
-        <div id="careers-home" class="card">
+        <div id="careers-home" class="card" href="#dest1">
 
             <div class="bg"></div>
             <div class="bg bg2"></div>
@@ -131,7 +102,7 @@
             <h1>At BIZCOMM, we're passionate about technology.</h1>
         </div>
 
-        <div id="about-team" class="card">
+        <div id="about-team" class="card" href="#dest3">
 
             <div id="about-header">
 

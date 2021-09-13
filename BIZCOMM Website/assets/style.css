@@ -451,6 +451,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transform: rotateY(0deg);
 }
 
 .service-front img {
@@ -567,6 +568,7 @@ nav {
     height: 90%;
     background-color: #bbb;
     color: black;
+    transform: rotateY(0deg);
 }
 
 .people-info {
