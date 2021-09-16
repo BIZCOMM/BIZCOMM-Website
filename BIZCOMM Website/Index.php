@@ -92,7 +92,7 @@
 
             <div id="about-header">
 
-                <h2>ABOUT US</h2>
+                <h2 style="align-items:center;">ABOUT US</h2>
 
                 <h3>BIZCOMM offers our clients full technical support without any fuss. You will work with people who care for your business' growth.</h3>
 
@@ -129,7 +129,7 @@
 
             <div id="partners-header">
 
-                <h2>OUR PARTNERS</h2>
+                <h2 style="align-items:center;">OUR PARTNERS</h2>
 
                 <h3>At BIZCOMM, we work with our partners to achieve innovative and reliable technical solutions to solve your problems.
                 </h3>
@@ -213,7 +213,7 @@
 
             <div id="service-header">
 
-                <h2>OUR SERVICES</h2>
+                <h2 style="align-items:center;">OUR SERVICES</h2>
 
                 <h3>Our team at BIZCOMM provides a wide variety of services that ensure all of our technical solutions are effective and complete.</h3>
 
@@ -315,7 +315,7 @@
 
             <div id="team-header">
 
-                <h2>MEET THE TEAM</h2>
+                <h2 style="align-items:center;">MEET THE TEAM</h2>
 
                 <h3>Our team at BIZCOMM provides a wide variety of services that ensure all of our technical solutions are effective and complete.</h3>
 
@@ -436,7 +436,7 @@
 
         <div id="contact-us" class="card" href="#dest6">
 
-            <h2>CONTACT US</h2>
+            <h2 style="align-items:center;">CONTACT US</h2>
 
             <h3>Got a question or enquiry? Contact us using the following details.</h3>
 
