@@ -98,7 +98,7 @@
 
             <div class="BIZCOMM">
 
-                <p>Our technichal solutions are </p>
+                <p>Our technical solutions are </p>
                 <b>
                     <div class="innerBIZCOMM">
                         [Innovative]<br />
