@@ -1102,3 +1102,16 @@ c {
         transform: translateX(25%);
     }
 }
+
+@media screen and (max-width: 481px) {
+    #content, nav{
+        float: left;
+        padding: 0;
+        width: 94%;
+        margin: 3%;
+    }
+
+    #logo-text{
+        font-size: 45px;
+    }
+}
