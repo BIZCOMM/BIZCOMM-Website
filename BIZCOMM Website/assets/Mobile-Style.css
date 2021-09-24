@@ -1,0 +1,458 @@
+/*Mobile CSS*/
+header {
+    height: 12vh;
+    background-color: #000000d0;
+    position: relative;
+    top: 0;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#logo {
+    display: grid;
+    grid-template-columns: 7vw auto;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "Icon Text";
+    grid-area: Logo;
+}
+
+#logo-img {
+    grid-area: Icon;
+    margin-right: 0;
+}
+
+#logo-image {
+    max-width: 5vw;
+    max-height: 10vh;
+    margin-top: 0.7vw;
+    padding-left: 2vw;
+}
+
+#logo-text {
+    grid-area: Text;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo-upper-text {
+    font-size: 2.5vw;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: min-content;
+    border: none;
+    line-height: 2.5vw;
+    padding-top: 0.85vw;
+    padding-left: 0.25vw;
+}
+
+#logo-lower-text {
+    font-size: 2vw;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: 2vw;
+    padding-left: 0.25vw;
+    align-items: left;
+}
+
+#nav-links{
+    display: none;
+}
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  /*@media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+   On screens that are less than 400px, display the bar vertically, instead of horizontally 
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      float: none;
+    }
+  }*/
+
+
+  html {
+    width: 100vw;
+    max-width: 100vw;
+    background-color: #ffffff;
+    font-family: 'Montserrat';
+    margin: auto;
+    align-content: center;
+    align-self: center;
+    overflow-x: hidden;
+}
+
+body {
+    margin-left: -0.1vw;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 0.7vw;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #4e4e4e;
+    border-radius: 1vw;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #727272;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+#careers-mail {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 auto;
+    width: fit-content;
+    padding-bottom: 1.5vw;
+    border-bottom: 0.15vw solid #000000;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 64vw;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 2vw;
+    margin: 0 auto;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+}
+
+h5 {
+    font-size: 13px;
+    font-weight: 300;
+    margin: 1vw auto;
+    margin-top: 0.5vw;
+    color: #292929;
+}
+
+h6 {
+    font-weight: 200;
+    margin: auto;
+    margin-bottom: 0.25vw;
+}
+
+a:link {
+    font-size: 1vw;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0 1vw;
+    text-decoration: none;
+    color: #e0e0e0;
+    transition: 0.3s ease;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #e0e0e0;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    max-width: 64vw;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.divider {
+    height: 20vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.box {
+    background-color: #ffffff;
+    box-shadow: 0 0 1vw #0000009f;
+    transition: 0.3s ease;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-self: center;
+    width: 100vw;
+    margin: 0;
+    margin-top: -0.35vw;
+}
+
+#BIZCOMM {
+    align-items: center;
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0;
+    background: linear-gradient(-45deg, #ca52ee, #613ce7, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#about-us {
+    max-width: 64vw;
+}
+
+#about-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vw;
+}
+
+#about-info {
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+}
+
+.about-text {
+    width: 30vw;
+    margin: auto 1.5vw;
+}
+
+.about-text p {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 2vw;
+}
+
+#divider-one {
+    background-color: #003BFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(224,960,487)'%3E%3Cstop offset='0' stop-color='%23003BFF'/%3E%3Cstop offset='1' stop-color='%2300B9FF'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='430' height='358.3' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#partners-header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+}
+
+.partner-logo {
+    height: 20vh;
+    width: 15vw;
+    margin: 1vw 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.partner-logo:hover {
+    background-color: #cccccc;
+}
+
+.logo-link:link {
+    margin: auto;
+}
+
+#telstra-logo .logo-link {
+    margin-top: 3.6vw;
+}
+
+#logo-row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#logo-row-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#partner-logo-img {
+    margin: auto;
+}
+
+
+
+/*
+header {
+    height: 12vh;
+    background-color: #000000d0;
+    position: relative;
+    top: 0;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#logo {
+    display: grid;
+    grid-template-columns: 7vw auto;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "Icon Text";
+    grid-area: Logo;
+}
+
+#logo-img {
+    grid-area: Icon;
+    margin-right: 0;
+}
+
+#logo-image {
+    max-width: 5vw;
+    max-height: 10vh;
+    margin-top: 0.7vw;
+    padding-left: 2vw;
+}
+
+#logo-text {
+    grid-area: Text;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo-upper-text {
+    font-size: 2.5vw;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: min-content;
+    border: none;
+    line-height: 2.5vw;
+    padding-top: 0.85vw;
+    padding-left: 0.25vw;
+}
+
+#logo-lower-text {
+    font-size: 2vw;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: 2vw;
+    padding-left: 0.25vw;
+    align-items: left;
+}
+
+nav {
+    grid-area: Nav;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    vertical-align: middle;
+}
+*/

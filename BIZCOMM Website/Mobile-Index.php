@@ -10,18 +10,18 @@
     <link rel="icon" href="assets/images/BIZCOMM Logo Black&White.png">
     <script src="assets/index.js"></script>
     <script src="assets/jquery-3.6.0.min.js"></script>
-    <script>
+    <!--<script>
         $(function() {
             var sections = [],
                 index = 0;
 
-            sections.push("#dest1");
-            sections.push("#dest2");
-            sections.push("#dest3");
-            sections.push("#dest4");
-            sections.push("#dest5");
-            sections.push("#dest6");
-            sections.push("#dest7");
+            sections.push("BIZCOMM");
+            sections.push("about-us");
+            sections.push("our-partners");
+            sections.push("our-services");
+            sections.push("meet-team");
+            sections.push("contact-us");
+            sections.push("footer");
 
             var sectNum = 0;
 
@@ -43,25 +43,25 @@
                 }
             });
         })
-    </script>
+    </script>-->
 
 </head>
 
 <body>
 
-    <?php echo file_get_contents("assets/Header.html"); ?>
+    <?php echo file_get_contents("assets/Mobile-Header.html"); ?>
 
-    <div id="scroll-buttons">
+    <!--<div id="scroll-buttons">
 
         <button id="up-scroll-button" class="scroll-button">↑</button>
 
         <button id="down-scroll-button" class="scroll-button">↓</button>
 
-    </div>
+    </div>-->
 
     <div id="content">
 
-        <div id="BIZCOMM" class="card" href="#dest1">
+        <div id="BIZCOMM" class="card">
 
             <!-- <h1 id="first-text">Our technichal solutions are </h1>
             <h1 id="second-text">[Innovative]</h1>
@@ -69,7 +69,7 @@
 
             <div class="BIZCOMM">
 
-                <p>Our technichal solutions are </p>
+                <p>Our technical solutions are </p>
                 <b>
                     <div class="innerBIZCOMM">
                         [Innovative]<br />
@@ -88,11 +88,11 @@
 
         </div>
 
-        <div id="about-us" class="card" href="#dest2">
+        <div id="about-us" class="card">
 
             <div id="about-header">
 
-                <h2 style="align-items:center;">ABOUT US</h2>
+                <h2>ABOUT US</h2>
 
                 <h3>BIZCOMM offers our clients full technical support without any fuss. You will work with people who care for your business' growth.</h3>
 
@@ -102,16 +102,16 @@
 
                 <div id="about-one" class="about-text">
 
-                    <h4>Perfectly Tailored Technical Solution</h4>
+                    <h4 style="font-weight: bold;">Perfectly Tailored Technical Solution<br></h4>
 
-                    <p>Whether your concerns are with mobile, complex network setups or cloud services, our team will be able to provide perfectly tailored solutions to your ICT or service issues. As technology continues to evolve constantly, we can assist
+                    <p><br>Whether your concerns are with mobile, complex network setups or cloud services, our team will be able to provide perfectly tailored solutions to your ICT or service issues. As technology continues to evolve constantly, we can assist
                         in facilitating the migrations of your existing services to new technogies, so we can ensure your business experiences low downtimes. </p>
 
                 </div>
 
                 <div id="about-two" class="about-text">
 
-                    <h4>Accurate and Efficient</h4>
+                    <h4 style="font-weight: bold;">Accurate and Efficient</h4>
 
                     <p>Our purpose is to provide a exceptional and reliable experience for customers in dealign with IT and Communications needs. Our team memebers have years of industry experience to ensure that customer’s ICT service issues or business
                         requirements, to engage the right resources and solutions to address any issues or business requirements in a timely manner.</p>
@@ -125,11 +125,11 @@
             <h1>Technology is best when it brings people together.</h1>
         </div>
 
-        <div id="our-partners" class="card" href="#dest3">
+        <div id="our-partners" class="card">
 
             <div id="partners-header">
 
-                <h2 style="align-items:center;">OUR PARTNERS</h2>
+                <h2>OUR PARTNERS</h2>
 
                 <h3>At BIZCOMM, we work with our partners to achieve innovative and reliable technical solutions to solve your problems.
                 </h3>
@@ -209,11 +209,11 @@
 
         </div>
 
-        <div id="our-services" class="card" href="#dest4">
+        <div id="our-services" class="card">
 
             <div id="service-header">
 
-                <h2 style="align-items:center;">OUR SERVICES</h2>
+                <h2>OUR SERVICES</h2>
 
                 <h3>Our team at BIZCOMM provides a wide variety of services that ensure all of our technical solutions are effective and complete.</h3>
 
@@ -293,11 +293,11 @@
 
         </div>
 
-        <div id="meet-team" class="card" href="#dest5">
+        <div id="meet-team" class="card">
 
             <div id="team-header">
 
-                <h2 style="align-items:center;">MEET THE TEAM</h2>
+                <h2>MEET THE TEAM</h2>
 
                 <h3>Our team at BIZCOMM provides a wide variety of services that ensure all of our technical solutions are effective and complete.</h3>
 
@@ -416,9 +416,9 @@
 
         </div>
 
-        <div id="contact-us" class="card" href="#dest6">
+        <div id="contact-us" class="card">
 
-            <h2 style="align-items:center;">CONTACT US</h2>
+            <h2>CONTACT US</h2>
 
             <h3>Got a question or enquiry? Contact us using the following details.</h3>
 
