@@ -1116,4 +1116,31 @@ c {
     #logo-text{
         font-size: 45px;
     }
+
+/*Mobile CSS*/
+header{
+    overflow: hidden;
+    position: relative;
+}
+
+header .nav-links{
+    display: none;
+}
+
+header a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header a.icon{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+
 }
