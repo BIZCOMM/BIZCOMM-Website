@@ -102,16 +102,16 @@
 
                 <div id="about-one" class="about-text">
 
-                    <h4>Perfectly Tailored Technical Solution</h4>
+                    <h4 style="font-weight: bold;">Perfectly Tailored Technical Solution<br></h4>
 
-                    <p>Whether your concerns are with mobile, complex network setups or cloud services, our team will be able to provide perfectly tailored solutions to your ICT or service issues. As technology continues to evolve constantly, we can assist
+                    <p><br>Whether your concerns are with mobile, complex network setups or cloud services, our team will be able to provide perfectly tailored solutions to your ICT or service issues. As technology continues to evolve constantly, we can assist
                         in facilitating the migrations of your existing services to new technogies, so we can ensure your business experiences low downtimes. </p>
 
                 </div>
 
                 <div id="about-two" class="about-text">
 
-                    <h4>Accurate and Efficient</h4>
+                    <h4 style="font-weight: bold;">Accurate and Efficient</h4>
 
                     <p>Our purpose is to provide a exceptional and reliable experience for customers in dealign with IT and Communications needs. Our team memebers have years of industry experience to ensure that customer’s ICT service issues or business
                         requirements, to engage the right resources and solutions to address any issues or business requirements in a timely manner.</p>

@@ -84,7 +84,7 @@ h4 {
     font-size: 16px;
     font-weight: 400;
     text-align: left;
-    line-height: 2vw;
+    line-height: 1.5;
     margin: 0 auto;
     margin-top: 2vw;
     margin-bottom: 0.5vw;
@@ -96,6 +96,7 @@ h5 {
     margin: 1vw auto;
     margin-top: 0.5vw;
     color: #292929;
+    line-height: 1.5;
 }
 
 h6 {
@@ -104,8 +105,13 @@ h6 {
     margin-bottom: 0.25vw;
 }
 
+#details-container a{
+    font-size: 13px;
+    line-height: 1.5;
+}
+
 a:link {
-    font-size: 1vw;
+    font-size: 13px;
     font-weight: 400;
     padding: 0px;
     margin: 0 1vw;
@@ -293,27 +299,6 @@ nav {
     }
 }
 
-#first-text {
-    color: #ffffff;
-    padding: 1vw;
-    padding-right: 1vw;
-    background-color: #000000ab;
-}
-
-#second-text {
-    background-color: #000000ab;
-    padding: 1vw 0;
-    color: #00eeff;
-}
-
-#third-text {
-    color: #ffffff;
-    padding: 1vw;
-    padding-left: 0;
-    padding-right: 1vw;
-    background-color: #000000ab;
-}
-
 #about-us {
     max-width: 64vw;
 }
@@ -332,15 +317,16 @@ nav {
 }
 
 .about-text {
-    width: 30vw;
+    display: flex;
+    flex-direction: column;
     margin: auto 1.5vw;
 }
 
 .about-text p {
-    font-size: 1vw;
+    font-size: 13px;
     font-weight: 300;
     text-align: left;
-    line-height: 2vw;
+    line-height: 1.5;
 }
 
 #divider-one {
@@ -427,6 +413,8 @@ nav {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d; 
+    -ms-transform-style: preserve-3d; 
 }
 
 .service-front,
@@ -451,6 +439,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transform: rotateY(0deg);
 }
 
 .service-front img {
@@ -458,7 +447,7 @@ nav {
     align-self: flex-start;
     margin: auto;
     margin-top: 2vw;
-    transform: rotateY(0deg);
+    
 }
 
 #net-tele-service img {
@@ -1116,30 +1105,6 @@ c {
     #logo-text{
         font-size: 45px;
     }
-
-/*Mobile CSS*/
-header{
-    overflow: hidden;
-    position: relative;
-}
-
-header .nav-links{
-    display: none;
-}
-
-header a{
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-header a.icon{
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
 
 
 
