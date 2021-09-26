@@ -60,6 +60,7 @@ h1,
     font-weight: 600;
     text-align: center;
     vertical-align: middle;
+    color: #ffffff;
 }
 
 h2 {
@@ -83,6 +84,7 @@ h4 {
     text-align: left;
     line-height: 2vw;
     margin: 0;
+    margin-top: 2vw;
 }
 
 h5 {
@@ -299,7 +301,7 @@ nav {
 #about-header {
     display: flex;
     flex-direction: column;
-    margin-top: 10vw;
+    margin-top: 5vw;
 }
 
 #about-info {
@@ -312,6 +314,11 @@ nav {
     display: flex;
     flex-direction: column;
     margin: auto 1.5vw;
+}
+
+#about-one,
+#about-two {
+    margin: 0 1vw;
 }
 
 .about-text p {
@@ -495,6 +502,10 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#team-header {
+    margin-top: 5vw;
 }
 
 #team-container {
@@ -895,7 +906,7 @@ c {
         top: 0px;
     }
     10% {
-        top: -12vh;
+        top: -10vh;
     }
     20% {
         top: -24vh;
