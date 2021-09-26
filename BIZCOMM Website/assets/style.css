@@ -56,47 +56,40 @@ li {
 
 h1,
 #careers-mail {
-    font-size: 32px;
+    font-size: 3.5vw;
     font-weight: 600;
     text-align: center;
     vertical-align: middle;
-    color: #ffffff;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 2.5vw;
     font-weight: 600;
+    text-align: center;
     margin: 0 auto;
     width: fit-content;
-    padding-bottom: 1.5vw;
-    border-bottom: 0.15vw solid #000000;
-    margin-bottom: 0;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
     max-width: 64vw;
 }
 
 h4 {
-    font-size: 16px;
+    font-size: 1.5vw;
     font-weight: 400;
     text-align: left;
-    line-height: 1.5;
-    margin: 0 auto;
-    margin-top: 2vw;
-    margin-bottom: 0.5vw;
+    line-height: 2vw;
+    margin: 0;
 }
 
 h5 {
-    font-size: 13px;
+    font-size: 1.3vw;
     font-weight: 300;
     margin: 1vw auto;
     margin-top: 0.5vw;
-    color: #292929;
-    line-height: 1.5;
 }
 
 h6 {
@@ -105,13 +98,13 @@ h6 {
     margin-bottom: 0.25vw;
 }
 
-#details-container a{
+#details-container a {
     font-size: 13px;
     line-height: 1.5;
 }
 
 a:link {
-    font-size: 13px;
+    font-size: 1.3vw;
     font-weight: 400;
     padding: 0px;
     margin: 0 1vw;
@@ -312,8 +305,7 @@ nav {
 #about-info {
     display: flex;
     flex-direction: row;
-    margin: auto;
-    margin-top: 0;
+    margin: 0;
 }
 
 .about-text {
@@ -323,7 +315,7 @@ nav {
 }
 
 .about-text p {
-    font-size: 13px;
+    font-size: 1.2vw;
     font-weight: 300;
     text-align: left;
     line-height: 1.5;
@@ -413,8 +405,8 @@ nav {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d; 
-    -ms-transform-style: preserve-3d; 
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
 }
 
 .service-front,
@@ -447,7 +439,6 @@ nav {
     align-self: flex-start;
     margin: auto;
     margin-top: 2vw;
-    
 }
 
 #net-tele-service img {
@@ -1095,17 +1086,14 @@ c {
 }
 
 @media screen and (max-width: 481px) {
-    #content, nav{
+    #content,
+    nav {
         float: left;
         padding: 0;
         width: 94%;
         margin: 3%;
     }
-
-    #logo-text{
+    #logo-text {
         font-size: 45px;
     }
-
-
-
 }
