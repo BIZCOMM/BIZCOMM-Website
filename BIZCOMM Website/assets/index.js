@@ -9,15 +9,11 @@ document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function myFunction() {
-    var x = document.getElementById("nav-links");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
-
-if (screen.width <= 720) {
-    window.location = "mobile/index.php";
 }
 

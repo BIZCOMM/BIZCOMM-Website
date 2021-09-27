@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="style - mobile.css">
+        <script src="index.js"></script>
+    </head>
     <body>
-        <header>
+        <header class="header">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <div id="logo">
 
-                <div id="logo-img">
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <div id="logo">
 
-                    <img id="logo-image" src="assets/images/BIZCOMM Logo Black&White.png" alt="BIZCOMM Logo">
-
+                    <div id="logo-img">
+    
+                        <img id="logo-image" src="assets/images/BIZCOMM Logo Black&White.png" alt="BIZCOMM Logo">
+    
+                    </div>
+    
+                    <div id="logo-text">
+    
+                        <h1 id="logo-upper-text">BIZCOMM</h1>
+                        <h2 id="logo-lower-text" style="text-align: left;">TECH SOLUTIONS</h2>
+    
+                    </div>
+    
                 </div>
-
-                <div id="logo-text">
-
-                    <h1 id="logo-upper-text">BIZCOMM</h1>
-                    <h2 id="logo-lower-text" style="text-align: left;">TECH SOLUTIONS</h2>
-
-                </div>
-
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                <a href="index.php">Home</a>
+                <a href="Knowledge.php">Knowledge Base</a>
+                <a href="careers.php">Careers</a>
+                <a href="terms.php">Terms & Privacy</a>
             </div>
-
-            <nav>
-                    <ul id="nav-links">
-                        <li><a class="nav-link" href="Mobile-Index.php">Home</a></li>
-                        <li><a class="nav-link" href="knowledge.php">Knowledge Base</a></li>
-                        <li><a class="nav-link" href="careers.php">Careers</a></li>
-                        <li><a class="nav-link" href="terms.php">Terms & Privacy</a></li>
-                    </ul>
-                
-
-                <button class="w3-button w3-teal w3-xlarge w3-right w3-hide-large" onclick="open()">&#9776;</button>
-            </nav>
-
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links-->
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
-
+            </div>
         </header>
     </body>
 </html>
