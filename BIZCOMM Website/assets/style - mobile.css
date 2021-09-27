@@ -1,18 +1,42 @@
-nav {
-  height: 15vh;
-  background-color: #ebebeb;
-  margin-top: -0.5vw;
-  margin-right: -0.5%;
-  position: fixed;
-  top: 13vh;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-template-areas: "Logo Nav";
-  z-index: 500;
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
 }
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.nav-links{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px; padding: 15px;}
+.nav-links ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.nav-links li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.nav-links li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.nav-links ul li a { text-decoration:none;  margin: 0px; color:#000000;}
+.nav-links ul li a:hover {  color: #000000; text-decoration:none;}
+.nav-links a{text-decoration:none; color:#000000;}
+.nav-links a:hover{text-decoration:none; color:#000000;}
 
 #nav-links {
     display: flex;
@@ -22,11 +46,8 @@ nav {
     vertical-align: middle;
 }
 
-#nav-links a{
-  color: #000000;
-}
 
-.nav-menu{
+#nav-menu{
   display: flex;
   flex-direction: row;
   justify-content: right;

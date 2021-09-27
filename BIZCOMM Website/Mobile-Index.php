@@ -6,58 +6,80 @@
     <title>BIZCOMM | Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="assets/style - mobile.css" type="text/css">
+    <link rel="stylesheet" href="assets/style - mobile.css">
     <link rel="icon" href="assets/images/BIZCOMM Logo Black&White.png">
     <script src="assets/index.js"></script>
     <script src="assets/jquery-3.6.0.min.js"></script>
     <script>
-        $(function() {
-            // var sections = [],
-            //     index = 0;
+        // $(function() {
+                    // var sections = [],
+                    //     index = 0;
 
-            // sections.push("BIZCOMM");
-            // sections.push("about-us");
-            // sections.push("our-partners");
-            // sections.push("our-services");
-            // sections.push("meet-team");
-            // sections.push("contact-us");
-            // sections.push("footer");
+                    // sections.push("BIZCOMM");
+                    // sections.push("about-us");
+                    // sections.push("our-partners");
+                    // sections.push("our-services");
+                    // sections.push("meet-team");
+                    // sections.push("contact-us");
+                    // sections.push("footer");
 
-            // var sectNum = 0;
+                    // var sectNum = 0;
 
-            // $("#down-scroll-button").click(function() {
-            //     if (sectNum < sections.length) {
-            //         sectNum += 1;
-            //         $('html, body').stop().animate({
-            //             scrollTop: $("#" + sections[sectNum]).offset().top
-            //         }, 1500);
-            //     }
-            // });
+                    // $("#down-scroll-button").click(function() {
+                    //     if (sectNum < sections.length) {
+                    //         sectNum += 1;
+                    //         $('html, body').stop().animate({
+                    //             scrollTop: $("#" + sections[sectNum]).offset().top
+                    //         }, 1500);
+                    //     }
+                    // });
 
-            // $("#up-scroll-button").click(function() {
-            //     if (sectNum > 0) {
-            //         sectNum -= 1;
-            //         $('html, body').stop().animate({
-            //             scrollTop: $("#" + sections[sectNum]).offset().top
-            //         }, 1500);
-            //     }
-            // });
+                    // $("#up-scroll-button").click(function() {
+                    //     if (sectNum > 0) {
+                    //         sectNum -= 1;
+                    //         $('html, body').stop().animate({
+                    //             scrollTop: $("#" + sections[sectNum]).offset().top
+                    //         }, 1500);
+                    //     }
+                    // });
 
-            $("nav").hide();
+                    //     $("nav").hide();
 
-            Boolean hidden = true;
+                    //     var hidden = true;
 
-            $("div.nav-menu.nav-menu-item").click(function() {
-                if (hidden) {
-                    $("nav").slideDown(300);
-                    hidden = false;
-                }
-                if (!hidden) {
-                    $("nav").slideUp(300);
-                    hidden = true;
-                }
-            })
-        })
+                    //     $("div#nav-menu#nav-menu-item").click(function(e) {
+                    //         if (e.target.tagName == 'div#nav-menu#nav-menu-item') {
+                    //             console.log("coom");
+                    //             if (hidden) {
+                    //                 $("nav").slideDown(300);
+                    //                 hidden = false;
+                    //             }
+                    //             if (!hidden) {
+                    //                 $("nav").slideUp(300);
+                    //                 hidden = true;
+                    //             }
+                    //         }
+                    //     })
+                    // })
+                    $(document).ready(function() {
+
+                        $(".cross").hide();
+                        $(".nav-links").hide();
+                        $(".hamburger").click(function() {
+                            $(".nav-links").slideToggle("slow", function() {
+                                $(".hamburger").hide();
+                                $(".cross").show();
+                            });
+                        });
+
+                        $(".cross").click(function() {
+                            $(".nav-links").slideToggle("slow", function() {
+                                $(".cross").hide();
+                                $(".hamburger").show();
+                            });
+                        });
+
+                    });
     </script>
 
 </head>
