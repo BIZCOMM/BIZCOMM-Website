@@ -70,6 +70,7 @@
             <div class="BIZCOMM">
 
                 <p>Our technical solutions are </p>
+
                 <b>
                     <div class="innerBIZCOMM">
                         [Innovative]<br />
