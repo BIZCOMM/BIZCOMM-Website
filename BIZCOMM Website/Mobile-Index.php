@@ -10,40 +10,55 @@
     <link rel="icon" href="assets/images/BIZCOMM Logo Black&White.png">
     <script src="assets/index.js"></script>
     <script src="assets/jquery-3.6.0.min.js"></script>
-    <!--<script>
+    <script>
         $(function() {
-            var sections = [],
-                index = 0;
+            // var sections = [],
+            //     index = 0;
 
-            sections.push("BIZCOMM");
-            sections.push("about-us");
-            sections.push("our-partners");
-            sections.push("our-services");
-            sections.push("meet-team");
-            sections.push("contact-us");
-            sections.push("footer");
+            // sections.push("BIZCOMM");
+            // sections.push("about-us");
+            // sections.push("our-partners");
+            // sections.push("our-services");
+            // sections.push("meet-team");
+            // sections.push("contact-us");
+            // sections.push("footer");
 
-            var sectNum = 0;
+            // var sectNum = 0;
 
-            $("#down-scroll-button").click(function() {
-                if (sectNum < sections.length) {
-                    sectNum += 1;
-                    $('html, body').stop().animate({
-                        scrollTop: $("#" + sections[sectNum]).offset().top
-                    }, 1500);
+            // $("#down-scroll-button").click(function() {
+            //     if (sectNum < sections.length) {
+            //         sectNum += 1;
+            //         $('html, body').stop().animate({
+            //             scrollTop: $("#" + sections[sectNum]).offset().top
+            //         }, 1500);
+            //     }
+            // });
+
+            // $("#up-scroll-button").click(function() {
+            //     if (sectNum > 0) {
+            //         sectNum -= 1;
+            //         $('html, body').stop().animate({
+            //             scrollTop: $("#" + sections[sectNum]).offset().top
+            //         }, 1500);
+            //     }
+            // });
+
+            $("nav").hide();
+
+            Boolean hidden = true;
+
+            $("div.nav-menu.nav-menu-item").click(function() {
+                if (hidden) {
+                    $("nav").slideDown(300);
+                    hidden = false;
                 }
-            });
-
-            $("#up-scroll-button").click(function() {
-                if (sectNum > 0) {
-                    sectNum -= 1;
-                    $('html, body').stop().animate({
-                        scrollTop: $("#" + sections[sectNum]).offset().top
-                    }, 1500);
+                if (!hidden) {
+                    $("nav").slideUp(300);
+                    hidden = true;
                 }
-            });
+            })
         })
-    </script>-->
+    </script>
 
 </head>
 
