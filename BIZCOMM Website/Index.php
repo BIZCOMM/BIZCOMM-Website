@@ -42,6 +42,34 @@
                     }, 1500);
                 }
             });
+
+            var words = [],
+                index = 0;
+
+            var wordIdx = 0;
+
+            words.push("[Innovative]");
+            words.push("[Quick]");
+            words.push("[Productive]");
+            words.push("[Creative]");
+            words.push("[Elevative]");
+            words.push("[Effective]");
+            words.push("[Reliable]");
+            words.push("[Sophisticated]");
+            words.push("[Systematic]");
+            words.push("[Practical]");
+
+            function loop() {
+                if (wordIdx >= words.length) {
+                    wordIdx = 0;
+                }
+                if (wordIdx < words.length) {
+                    $("span#output").html(words[wordIdx]);
+                    wordIdx += 1;
+                    $("span#output").slideDown(300).delay(1500).slideUp(300, loop);
+                }
+
+            }
         })
     </script>
 
@@ -63,28 +91,12 @@
 
         <div id="BIZCOMM" class="card">
 
-            <!-- <h1 id="first-text">Our technichal solutions are </h1>
-            <h1 id="second-text">[Innovative]</h1>
-            <h1 id="third-text">.</h1> -->
-
             <div class="BIZCOMM">
 
                 <p>Our technical solutions are </p>
 
-                <b>
-                    <div class="innerBIZCOMM">
-                        [Innovative]<br />
-                        [Quick]<br />
-                        [Productive]<br />
-                        [Creative]<br />
-                        [Elevative]<br />
-                        [Effective]<br />
-                        [Reliable]<br />
-                        [Sophisticated]<br />
-                        [Systematic]<br />
-                        [Practical]
-                    </div>
-                </b>
+                <span id="output">Kevin is a Wizard</span>
+                
             </div>
 
         </div>
