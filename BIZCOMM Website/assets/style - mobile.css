@@ -1,39 +1,42 @@
- /* Style the navigation menu */
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
-    margin-left: 100%;
-  }
-  
-  /* Style navigation menu links */
-  .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+nav {
+  height: 15vh;
+  background-color: #ebebeb;
+  margin-top: -0.5vw;
+  margin-right: -0.5%;
+  position: fixed;
+  top: 13vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "Logo Nav";
+  z-index: 500;
+}
 
+#nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    vertical-align: middle;
+}
+
+#nav-links a{
+  color: #000000;
+}
+
+.nav-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin: auto;
+  margin-right: 30px;
+}
 
   html {
-    width: 100vw;
-    max-width: 100vw;
+    width: 100%;
+    max-width: 100%;
     background-color: #ffffff;
     font-family: 'Montserrat';
     margin: auto;
