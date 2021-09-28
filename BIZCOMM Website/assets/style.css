@@ -846,6 +846,14 @@ c {
     width: 80vw;
 }
 
+.BIZCOMM#careers-switchy {
+    width: 50vw;
+}
+
+.BIZCOMM#knowledge-switchy {
+    width: 50vw;
+}
+
 .BIZCOMM p,
 span {
     height: 6vh;

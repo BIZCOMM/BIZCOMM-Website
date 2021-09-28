@@ -53,6 +53,36 @@
                     }, 1500);
                 }
             });
+
+            var words = [],
+                index = 0;
+
+            var wordIdx = 0;
+
+            words.push("[Agile]");
+            words.push("[Creative]");
+            words.push("[Innovative]");
+            words.push("[Passionate]");
+            words.push("[Efficient]");
+            words.push("[Reliable]");
+            words.push("[Quick]");
+            words.push("[Productive]");
+            words.push("[Fun]");
+            words.push("[Practical]");
+
+            function loop() {
+                if (wordIdx >= words.length) {
+                    wordIdx = 0;
+                }
+                if (wordIdx < words.length) {
+                    $("span#output").html(words[wordIdx]);
+                    wordIdx += 1;
+                    $("span#output").slideDown(300).delay(1500).slideUp(300, loop);
+                }
+
+            }
+
+            loop();
         })
     </script>
 
@@ -81,21 +111,11 @@
             <div class="BIZCOMM">
 
                 <p>Our team is </p>
-                <b>
-                    <div class="innerBIZCOMM">
-                        [Agile]<br />
-                        [Creative]<br />
-                        [Innovative]<br />
-                        [Passionate]<br />
-                        [Efficient]<br />
-                        [Reliable]<br />
-                        [Quick]<br />
-                        [Productive]<br />
-                        [Fun]<br />
-                        [Practical]
-                    </div>
-                </b>
+                
+                <span id="output">Kevin is a Wizard</span>
+
             </div>
+
         </div>
 
         <div id="divider-one" class="divider">
