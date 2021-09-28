@@ -13,7 +13,7 @@
  -->
 
 
- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <head>
 
@@ -55,6 +55,36 @@
                     }, 1500);
                 }
             });
+
+            var words = [],
+                index = 0;
+
+            var wordIdx = 0;
+
+            words.push("[Quick]");
+            words.push("[Creative]");
+            words.push("[Innovative]");
+            words.push("[Elevative]");
+            words.push("[Effective]");
+            words.push("[Reliable]");
+            words.push("[Sophisticated]");
+            words.push("[Systematic]");
+            words.push("[Productive]");
+            words.push("[Practical]");
+
+            function loop() {
+                if (wordIdx >= words.length) {
+                    wordIdx = 0;
+                }
+                if (wordIdx < words.length) {
+                    $("span#output").html(words[wordIdx]);
+                    wordIdx += 1;
+                    $("span#output").slideDown(300).delay(1500).slideUp(300, loop);
+                }
+
+            }
+
+            loop();
         })
     </script>
 
@@ -75,24 +105,15 @@
     <div id="content">
 
         <div id="terms-home" class="card" href="#dest1">
-            <div class="BIZCOMM">
 
-                <p>Our team is </p>
-                <b>
-                    <div class="innerBIZCOMM">
-                        [Agile]<br />
-                        [Creative]<br />
-                        [Innovative]<br />
-                        [Elevative]<br />
-                        [Effective]<br />
-                        [Reliable]<br />
-                        [Sophisticated]<br />
-                        [Systematic]<br />
-                        [Productive]<br />
-                        [Practical]
-                    </div>
-                </b>
+            <div id="terms-switchy" class="BIZCOMM">
+
+                <p>Our business is </p>
+
+                <span id="output">Kevin is a Wizard</span>
+
             </div>
+
         </div>
 
         <div id="divider-one" class="divider">
@@ -111,7 +132,7 @@
 
         </div>
 
-        <div id="divider-two" class="divider" >
+        <div id="divider-two" class="divider">
             <h1>TERMS AND CONDITIONS</h1>
         </div>
 
