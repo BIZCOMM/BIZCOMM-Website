@@ -6,7 +6,7 @@
     <title>BIZCOMM | Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="assets/style - mobile.css">
+    <link rel="stylesheet" href="assets/style-mobile.css">
     <link rel="icon" href="assets/images/BIZCOMM Logo Black&White.png">
     <script src="assets/index.js"></script>
     <script src="assets/jquery-3.6.0.min.js"></script>
