@@ -121,6 +121,14 @@ h1,
     color: #ffffff;
 }
 
+h1{
+    font-size: 5vh;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
 h2 {
     font-size: 2.5vw;
     font-weight: 600;
@@ -622,13 +630,37 @@ header {
     margin: 0;
 }
 
+button.accordian {
+    background: none;
+    color: #333333;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 0;
+    text-align: left;
+    outline: none;
+  }
+
+button.accordian:after{
+    content: '\f055';
+    float: right;
+}
+
+button.accordian.is-open:after{
+    content: '\f056';
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.accordian-content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+  }
+
 #details-container {
-    display: grid;
-    grid-auto-columns: 1fr;
-    grid-template-columns: 1fr 01fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas: "TopLeft TopRight" "Bottom Bottom";
+    display: flex;
+    flex-direction: column;
     line-height: 0.5vw;
 }
 
@@ -684,13 +716,15 @@ header {
     margin: 0;
 }
 
-#links {
+
+
+/* #links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     background-color: #333333;
     padding: 1vw 0;
-}
+} */
 
 #copyright {
     background-color: #000000;
@@ -738,17 +772,6 @@ header {
     color: #ffffff;
 }
 
-#help-links {
-    padding: 20px;
-}
-
-#terms-privacy-links {
-    padding: 20px;
-}
-
-#telstra-links {
-    padding: 20px;
-}
 
 #copyright {
     display: flex;
