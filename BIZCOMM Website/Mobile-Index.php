@@ -519,7 +519,7 @@
 
         </div>
 
-        <?php echo file_get_contents("assets/Footer.html"); ?>
+        <?php echo file_get_contents("assets/Mobile-Footer.html"); ?>
 
     </div>
 
