@@ -13,7 +13,7 @@
     <title>BIZCOMM | Knowledge Base</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="assets/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/style-mobile.css" type="text/css">
     <link rel="icon" href="assets/images/BIZCOMM Logo Black&White.png">
     <script src="assets/index.js"></script>
     <script src="assets/jquery-3.6.0.min.js"></script>
@@ -82,15 +82,15 @@
 
 <body>
 
-    <?php echo file_get_contents("assets/Header.html"); ?>
+    <?php echo file_get_contents("assets/Mobile-Header.html"); ?>
 
-    <div id="scroll-buttons">
+    <!--<div id="scroll-buttons">
 
         <button id="up-scroll-button" class="scroll-button">↑</button>
 
         <button id="down-scroll-button" class="scroll-button">↓</button>
 
-    </div>
+    </div>-->
 
     <div id="content">
 
@@ -138,7 +138,7 @@
 
         </div>
 
-        <?php echo file_get_contents("assets/Footer.html"); ?>
+        <?php echo file_get_contents("assets/Mobile-Footer.html"); ?>
 
     </div>
 
