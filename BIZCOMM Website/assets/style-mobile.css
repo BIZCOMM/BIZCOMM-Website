@@ -630,34 +630,7 @@ header {
     margin: 0;
 }
 
-button.accordian {
-    background: none;
-    color: #333333;
-    cursor: pointer;
-    padding: 18px;
-    width: 80%;
-    border: 0;
-    align-items: right;
-    text-align: left;
-    outline: none;
-  }
 
-button.accordian:after{
-    content: '\f055';
-    float: right;
-}
-
-button.accordian.is-open:after{
-    content: '\f056';
-}
-
-/* Style the collapsible content. Note: hidden by default */
-.accordian-content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    transition: max-height 0.2s ease-in-out;
-  }
 
 #details-container {
     display: flex;
@@ -717,7 +690,37 @@ button.accordian.is-open:after{
     margin: 0;
 }
 
+button.accordion {
+    background: none;
+    color: #333333;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 0;
+    align-items: right;
+    text-align: left;
+    outline: none;
+    float: right;
+    
+  }
 
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    float: right;
+
+  }
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+/* Style the collapsible content. Note: hidden by default */
+.accordion-content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+  }
 
 /* #links {
     display: flex;
@@ -746,7 +749,7 @@ button.accordian.is-open:after{
     margin-bottom: 0.3vw;
 }
 
-#footer a {
+/*#footer a {
     font-size: 1vw;
     color: #bebebe;
     transition: 0.3s ease;
@@ -771,7 +774,7 @@ button.accordian.is-open:after{
 
 #footer a:hover {
     color: #ffffff;
-}
+}*/
 
 
 #copyright {

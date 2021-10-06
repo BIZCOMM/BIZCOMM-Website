@@ -1,16 +1,14 @@
-var accordians = document.getElementsByClassName("accordian");
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-for (var i = 0; i < accordians.length; i++) {
-  accordians[i].onclick = function() {
-    this.classList.toggle('is-open');
-
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight) {
-      // accordion is currently open, so close it
-      content.style.maxHeight = null;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
     } else {
-      // accordion is currently closed, so open it
-      content.style.maxHeight = content.scrollHeight + "px";
+      panel.style.maxHeight = panel.scrollHeight + "px";
     }
-  }
+  });
 }
