@@ -635,8 +635,9 @@ button.accordian {
     color: #333333;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 80%;
     border: 0;
+    align-items: right;
     text-align: left;
     outline: none;
   }
