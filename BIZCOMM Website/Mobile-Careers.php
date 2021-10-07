@@ -1,16 +1,24 @@
 <!-- 
-    Sites to remember:
-    https://www.telstra.com.au/business-enterprise/support/tipt 
+    Notes:
+
+    https://www.careers.telstra.com/home
+    We offer full-time and trainee positions
+
+    If you're passionate about tech,
+
+    apply with cv and expression of interest
+
+    we look for people who are into technology, and latest stuffs
+
+ -->
 
 
--->
-
-<!DOCTYPE html>
+ <!DOCTYPE html>
 
 <head>
 
     <meta charset="UTF-8">
-    <title>BIZCOMM | Knowledge Base</title>
+    <title>BIZCOMM | Careers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="assets/style-mobile.css">
@@ -51,15 +59,15 @@
 
             var wordIdx = 0;
 
-            words.push("[Quick]");
+            words.push("[Agile]");
             words.push("[Creative]");
             words.push("[Innovative]");
-            words.push("[Elevative]");
-            words.push("[Effective]");
+            words.push("[Passionate]");
+            words.push("[Efficient]");
             words.push("[Reliable]");
-            words.push("[Sophisticated]");
-            words.push("[Systematic]");
+            words.push("[Quick]");
             words.push("[Productive]");
+            words.push("[Fun]");
             words.push("[Practical]");
 
             function loop() {
@@ -94,12 +102,16 @@
 
     <div id="content">
 
-        <div id="knowledge-home" class="card" href="#dest1">
+        <div id="careers-home" class="card" href="#dest1">
 
-            <div id="knowledge-switchy" class="BIZCOMM">
+            <div class="bg"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+
+            <div class="BIZCOMM">
 
                 <p>Our team is </p>
-
+                
                 <span id="output">Kevin is a Wizard</span>
 
             </div>
@@ -107,32 +119,18 @@
         </div>
 
         <div id="divider-one" class="divider">
-            <h1>Technology is best when it brings people together.</h1>
+            <h1>At BIZCOMM, we're passionate about technology.</h1>
         </div>
 
-        <div id="our-knowledge" class="card" href="#dest2">
+        <div id="about-team" class="card" href="#dest3">
 
-            <div id="knowledge-header">
+            <div id="about-header">
 
-                <h2>Knowledge Videos</h2>
+                <h2>CAREER OPPORTUNITIES</h2>
 
+                <h3>Are you passionate about technology and interested in joining the team? Send us an email with an expression of interest to apply now!</h3>
 
-            </div>
-
-
-            <div id="video-row">
-
-                <div class="knowledge-video box">
-                    <iframe src="https://www.youtube.com/embed/eBByRs1GsuA"></iframe>
-                </div>
-
-                <div class="knowledge-video box">
-                    <iframe src="https://www.youtube.com/embed/x-jtwmPhlls"></iframe>
-                </div>
-
-                <div class="knowledge-video box">
-                    <iframe src="https://www.youtube.com/embed/k9fvIFKrfzg"></iframe>
-                </div>
+                <a id="careers-mail" href="mailto: careers@bizcomm.com.au">careers@bizcomm.com.au</a>
 
             </div>
 

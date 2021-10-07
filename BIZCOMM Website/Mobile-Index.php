@@ -11,78 +11,78 @@
     <script src="assets/index.js"></script>
     <script src="assets/jquery-3.6.0.min.js"></script>
     <script>
-         $(function() {
-                    // var sections = [],
-                    //     index = 0;
+        $(function () {
+            // var sections = [],
+            //     index = 0;
 
-                    // sections.push("BIZCOMM");
-                    // sections.push("about-us");
-                    // sections.push("our-partners");
-                    // sections.push("our-services");
-                    // sections.push("meet-team");
-                    // sections.push("contact-us");
-                    // sections.push("footer");
+            // sections.push("BIZCOMM");
+            // sections.push("about-us");
+            // sections.push("our-partners");
+            // sections.push("our-services");
+            // sections.push("meet-team");
+            // sections.push("contact-us");
+            // sections.push("footer");
 
-                    // var sectNum = 0;
+            // var sectNum = 0;
 
-                    // $("#down-scroll-button").click(function() {
-                    //     if (sectNum < sections.length) {
-                    //         sectNum += 1;
-                    //         $('html, body').stop().animate({
-                    //             scrollTop: $("#" + sections[sectNum]).offset().top
-                    //         }, 1500);
-                    //     }
-                    // });
+            // $("#down-scroll-button").click(function() {
+            //     if (sectNum < sections.length) {
+            //         sectNum += 1;
+            //         $('html, body').stop().animate({
+            //             scrollTop: $("#" + sections[sectNum]).offset().top
+            //         }, 1500);
+            //     }
+            // });
 
-                    // $("#up-scroll-button").click(function() {
-                    //     if (sectNum > 0) {
-                    //         sectNum -= 1;
-                    //         $('html, body').stop().animate({
-                    //             scrollTop: $("#" + sections[sectNum]).offset().top
-                    //         }, 1500);
-                    //     }
-                    // });
+            // $("#up-scroll-button").click(function() {
+            //     if (sectNum > 0) {
+            //         sectNum -= 1;
+            //         $('html, body').stop().animate({
+            //             scrollTop: $("#" + sections[sectNum]).offset().top
+            //         }, 1500);
+            //     }
+            // });
 
-                    //     $("nav").hide();
+            //     $("nav").hide();
 
-                    //     var hidden = true;
+            //     var hidden = true;
 
-                    //     $("div#nav-menu#nav-menu-item").click(function(e) {
-                    //         if (e.target.tagName == 'div#nav-menu#nav-menu-item') {
-                    //             console.log("coom");
-                    //             if (hidden) {
-                    //                 $("nav").slideDown(300);
-                    //                 hidden = false;
-                    //             }
-                    //             if (!hidden) {
-                    //                 $("nav").slideUp(300);
-                    //                 hidden = true;
-                    //             }
-                    //         }
-                    //     })
-                    // })
-                    $(document).ready(function() {
+            //     $("div#nav-menu#nav-menu-item").click(function(e) {
+            //         if (e.target.tagName == 'div#nav-menu#nav-menu-item') {
+            //             console.log("coom");
+            //             if (hidden) {
+            //                 $("nav").slideDown(300);
+            //                 hidden = false;
+            //             }
+            //             if (!hidden) {
+            //                 $("nav").slideUp(300);
+            //                 hidden = true;
+            //             }
+            //         }
+            //     })
+            // })
+            $(document).ready(function () {
 
-                        $(".cross").hide();
-                        $(".nav-links").hide();
-                        $(".hamburger").click(function() {
-                            $(".nav-links").slideToggle("slow", function() {
-                                $(".hamburger").hide();
-                                $(".cross").show();
-                            });
-                        });
-
-                        $(".cross").click(function() {
-                            $(".nav-links").slideToggle("slow", function() {
-                                $(".cross").hide();
-                                $(".hamburger").show();
-                            });
-                        });
-
+                $(".cross").hide();
+                $(".nav-links").hide();
+                $(".hamburger").click(function () {
+                    $(".nav-links").slideToggle("slow", function () {
+                        $(".hamburger").hide();
+                        $(".cross").show();
                     });
+                });
+
+                $(".cross").click(function () {
+                    $(".nav-links").slideToggle("slow", function () {
+                        $(".cross").hide();
+                        $(".hamburger").show();
+                    });
+                });
+
+            });
 
             var words = [],
-            index = 0;
+                index = 0;
 
             var wordIdx = 0;
 
@@ -136,7 +136,7 @@
                 <p>Our technical solutions are </p>
 
                 <span id="output">Kevin is a Wizard</span>
-    
+
             </div>
 
         </div>
@@ -147,7 +147,8 @@
 
                 <h2>ABOUT US</h2>
 
-                <h3>BIZCOMM offers our clients full technical support without any fuss. You will work with people who care for your business' growth.</h3>
+                <h3>BIZCOMM offers our clients full technical support without any fuss. You will work with people who
+                    care for your business' growth.</h3>
 
             </div>
 
@@ -157,8 +158,11 @@
 
                     <h4>Perfectly Tailored Technical Solution</h4>
 
-                    <p>Whether your concerns are with mobile, complex network setups or cloud services, our team will be able to provide perfectly tailored solutions to your ICT or service issues. As technology continues to evolve constantly, we can assist
-                        in facilitating the migrations of your existing services to new technogies, so we can ensure your business experiences low downtimes. </p>
+                    <p>Whether your concerns are with mobile, complex network setups or cloud services, our team will be
+                        able to provide perfectly tailored solutions to your ICT or service issues. As technology
+                        continues to evolve constantly, we can assist
+                        in facilitating the migrations of your existing services to new technogies, so we can ensure
+                        your business experiences low downtimes. </p>
 
                 </div>
 
@@ -166,8 +170,11 @@
 
                     <h4>Accurate and Efficient</h4>
 
-                    <p>Our purpose is to provide a exceptional and reliable experience for customers in dealign with IT and Communications needs. Our team memebers have years of industry experience to ensure that customer’s ICT service issues or business
-                        requirements, to engage the right resources and solutions to address any issues or business requirements in a timely manner.</p>
+                    <p>Our purpose is to provide a exceptional and reliable experience for customers in dealign with IT
+                        and Communications needs. Our team memebers have years of industry experience to ensure that
+                        customer’s ICT service issues or business
+                        requirements, to engage the right resources and solutions to address any issues or business
+                        requirements in a timely manner.</p>
 
                 </div>
             </div>
@@ -184,7 +191,8 @@
 
                 <h2>OUR PARTNERS</h2>
 
-                <h3>At BIZCOMM, we work with our partners to achieve innovative and reliable technical solutions to solve your problems.
+                <h3>At BIZCOMM, we work with our partners to achieve innovative and reliable technical solutions to
+                    solve your problems.
                 </h3>
 
             </div>
@@ -202,7 +210,8 @@
 
                 <div id="dicker-data-logo" class="partner-logo box">
                     <a class="logo-link" href="https://www.dickerdata.com.au/" target="_blank">
-                        <img src="assets/images/Dicker Data.png" alt="Dicker Data" style="max-width: 14vw;max-height: 9vw;">
+                        <img src="assets/images/Dicker Data.png" alt="Dicker Data"
+                            style="max-width: 14vw;max-height: 9vw;">
                     </a>
                     <div class="logo-overlay"></div>
 
@@ -218,7 +227,8 @@
 
                 <div id="microsoft-logo" class="partner-logo box">
                     <a class="logo-link" href="https://www.cisco.com/c/en_au/index.html" target="_blank">
-                        <img src="assets/images/Microsoft.png" alt="Dicker Data" style="max-width: 14vw;max-height: 9vw;">
+                        <img src="assets/images/Microsoft.png" alt="Dicker Data"
+                            style="max-width: 14vw;max-height: 9vw;">
                     </a>
                     <div class="logo-overlay"></div>
 
@@ -268,7 +278,8 @@
 
                 <h2>OUR SERVICES</h2>
 
-                <h3>Our team at BIZCOMM provides a wide variety of services that ensure all of our technical solutions are effective and complete.</h3>
+                <h3>Our team at BIZCOMM provides a wide variety of services that ensure all of our technical solutions
+                    are effective and complete.</h3>
 
             </div>
 
@@ -280,7 +291,8 @@
                             <img src="assets/images/Mobile.png" alt="Mobile Services" style="width: 20vw;height: 20vw;">
                         </div>
                         <div id="Mobile-Text" class="service-text">
-                            <img src="assets/images/Mobile Text.png" alt="Mobile Services" style="max-width: 15vw; max-height: 12vw;">
+                            <img src="assets/images/Mobile Text.png" alt="Mobile Services"
+                                style="max-width: 15vw; max-height: 12vw;">
                             <h5>At Bizcomm our Mobile Services include:</h5>
                             <ul>
                                 <li>New Mobile Connections</li>
@@ -298,10 +310,12 @@
                 <div id="net-tele-service" class="service-box box">
                     <div id="N&T-inner" class="service-inner">
                         <div id="N&T-Front" class="service-front">
-                            <img src="assets/images/Network&Telephony.png" alt="Network & Telephony" style="max-width: 20vw; max-height: 20vw;">
+                            <img src="assets/images/Network&Telephony.png" alt="Network & Telephony"
+                                style="max-width: 20vw; max-height: 20vw;">
                         </div>
                         <div id="N&T-Text" class="service-text">
-                            <img id="net-inner-title" src="assets/images/Network&Telephony Text.png" Alt="Network & Telephony" style="max-width: 13vw; max-height: 10vw;">
+                            <img id="net-inner-title" src="assets/images/Network&Telephony Text.png"
+                                Alt="Network & Telephony" style="max-width: 13vw; max-height: 10vw;">
                             <h5>At Bizcomm our Network & Telephony Services include:</h5>
                             <ul>
                                 <li>NBN Migrations</li>
@@ -319,10 +333,12 @@
                 <div id="cloud-service" class="service-box box">
                     <div id="Cloud Inner" class="service-inner">
                         <div id="Cloud-Front" class="service-front">
-                            <img src="assets/images/Cloud.png" alt="Cloud Services" style="max-width: 20vw; max-height: 20vw;">
+                            <img src="assets/images/Cloud.png" alt="Cloud Services"
+                                style="max-width: 20vw; max-height: 20vw;">
                         </div>
                         <div id="Cloud-Text" class="service-text">
-                            <img src="assets/images/Cloud Text.png" Alt="Cloud Services" style="max-width: 15vw; max-height: 12vw;">
+                            <img src="assets/images/Cloud Text.png" Alt="Cloud Services"
+                                style="max-width: 15vw; max-height: 12vw;">
                             <h5>At Bizcomm our Cloud Services include:</h5>
                             <ul type="circle">
                                 <li>Migration to Microsoft 365 Hosted Services</li>
@@ -370,7 +386,8 @@
 
                 <h2>MEET THE TEAM</h2>
 
-                <h3>Our team at BIZCOMM provides a wide variety of services that ensure all of our technical solutions are effective and complete.</h3>
+                <h3>Our team at BIZCOMM provides a wide variety of services that ensure all of our technical solutions
+                    are effective and complete.</h3>
 
             </div>
 
@@ -483,7 +500,8 @@
 
         <div id="map" class="divider">
 
-            <iframe width="100%" height="100%" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJM-_PhkKXEmsRc7w90ulBaHs&key=AIzaSyAHwQJTlDnaONNe4h_vX6RwINAaj3XROV8"></iframe>
+            <iframe width="100%" height="100%" style="border:0" loading="lazy" allowfullscreen
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJM-_PhkKXEmsRc7w90ulBaHs&key=AIzaSyAHwQJTlDnaONNe4h_vX6RwINAaj3XROV8"></iframe>
 
         </div>
 
@@ -515,7 +533,8 @@
 
                     <h4>CHECK OUT OUR LINKEDIN</h4>
 
-                    <a href="https://linkedin.com/company/bizcomm-au" target="_blank" rel="noopener noreferrer">linkedin.com/company/bizcomm-au</a>
+                    <a href="https://linkedin.com/company/bizcomm-au" target="_blank"
+                        rel="noopener noreferrer">linkedin.com/company/bizcomm-au</a>
 
                 </div>
 

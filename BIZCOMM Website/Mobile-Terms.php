@@ -1,16 +1,24 @@
 <!-- 
-    Sites to remember:
-    https://www.telstra.com.au/business-enterprise/support/tipt 
+    Notes:
+
+    https://www.careers.telstra.com/home
+    We offer full-time and trainee positions
+
+    If you're passionate about tech,
+
+    apply with cv and expression of interest
+
+    we look for people who are into technology, and latest stuffs
+
+ -->
 
 
--->
-
-<!DOCTYPE html>
+ <!DOCTYPE html>
 
 <head>
 
     <meta charset="UTF-8">
-    <title>BIZCOMM | Knowledge Base</title>
+    <title>BIZCOMM | Terms and Privacy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="assets/style-mobile.css">
@@ -24,6 +32,8 @@
 
             sections.push("#dest1");
             sections.push("#dest2");
+            sections.push("#dest3");
+            sections.push("#dest4");
             sections.push("#dest7");
 
             var sectNum = 0;
@@ -94,11 +104,11 @@
 
     <div id="content">
 
-        <div id="knowledge-home" class="card" href="#dest1">
+        <div id="terms-home" class="card" href="#dest1">
 
-            <div id="knowledge-switchy" class="BIZCOMM">
+            <div id="terms-switchy" class="BIZCOMM">
 
-                <p>Our team is </p>
+                <p>Our business is </p>
 
                 <span id="output">Kevin is a Wizard</span>
 
@@ -107,31 +117,55 @@
         </div>
 
         <div id="divider-one" class="divider">
-            <h1>Technology is best when it brings people together.</h1>
+            <h1>At BIZCOMM, we're adhere to our rules and morals.</h1>
         </div>
 
-        <div id="our-knowledge" class="card" href="#dest2">
+        <div id="about-terms" class="card" href="#dest2">
 
-            <div id="knowledge-header">
+            <div id="terms-header">
 
-                <h2>Knowledge Videos</h2>
+                <h2>OUR TERMS & CONDITIONS AND PRIVACY</h2>
 
+                <h3>At BIZCOMM, we adhere to all standards set by the industry.</h3>
+
+            </div>
+
+        </div>
+
+        <div id="divider-two" class="divider">
+            <h1>TERMS AND CONDITIONS</h1>
+        </div>
+
+        <div id="tnc" class="card" href="#dest3">
+
+            <div class="info">
+
+                <div class="actual-info">
+
+                    <p><iframe class="info-iframe" src="assets/T&C.html" frameborder="0"></iframe></p>
+
+                </div>
 
             </div>
 
 
-            <div id="video-row">
 
-                <div class="knowledge-video box">
-                    <iframe src="https://www.youtube.com/embed/eBByRs1GsuA"></iframe>
-                </div>
+        </div>
 
-                <div class="knowledge-video box">
-                    <iframe src="https://www.youtube.com/embed/x-jtwmPhlls"></iframe>
-                </div>
+        <div id="divider-three" class="divider">
 
-                <div class="knowledge-video box">
-                    <iframe src="https://www.youtube.com/embed/k9fvIFKrfzg"></iframe>
+            <h1>Privacy</h1>
+
+        </div>
+
+        <div id="privacy" class="card text-wall" href="#dest4">
+
+            <div class="info">
+
+                <div class="actual-info">
+
+                    <p><iframe class="info-iframe" src="assets/Privacy.html" frameborder="0"></iframe></p>
+
                 </div>
 
             </div>
